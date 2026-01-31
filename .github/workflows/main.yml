@@ -12,20 +12,30 @@ permissions:
 jobs:
   run:
     runs-on: ubuntu-latest
-
-    steps:
+    
+steps:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Create heartbeat file
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
         run: |
-          mkdir -p docs/logs
-          echo "Workflow ran at $(date -u)" > docs/logs/last_run.txt
+          pip install feedparser
+
+      - name: Build daily brief (text)
+        run: |
+          mkdir -p docs/briefs
+          python scripts/build_brief.py > docs/briefs/latest.txt
 
       - name: Commit changes
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add docs/logs/last_run.txt
-          git commit -m "Daily automation heartbeat" || echo "No changes to commit"
+          git add docs/briefs/latest.txt
+          git commit -m "Publish latest brief" || echo "No changes to commit"
           git push
+
