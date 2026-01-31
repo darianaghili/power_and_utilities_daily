@@ -36,7 +36,7 @@ def generate_mp3(text: str, mp3_path: Path):
     tmp_wav = mp3_path.with_suffix(".wav")
 
     p = subprocess.run(
-        ["espeak-ng", "-v", "en-us", "-s", "150", "-w", str(tmp_wav)],
+        ["espeak-ng", "-v", "en-us", "-s", "145", "-p", "55", "-w", str(tmp_wav)],
         input=text,
         text=True,
         capture_output=True
@@ -45,13 +45,16 @@ def generate_mp3(text: str, mp3_path: Path):
         raise RuntimeError(f"espeak-ng failed: {p.stderr.strip()}")
 
     subprocess.check_call([
-        "ffmpeg", "-y",
-        "-i", str(tmp_wav),
-        "-ac", MP3_CHANNELS,
-        "-ar", MP3_RATE,
-        "-b:a", MP3_BITRATE,
-        str(mp3_path)
-    ])
+    "ffmpeg", "-y",
+    "-i", str(tmp_wav),
+    "-af",
+    "highpass=f=80, lowpass=f=9000, "
+    "acompressor=threshold=-18dB:ratio=3:attack=20:release=250",
+    "-ac", MP3_CHANNELS,
+    "-ar", MP3_RATE,
+    "-b:a", MP3_BITRATE,
+    str(mp3_path)
+])
 
     try:
         tmp_wav.unlink()
