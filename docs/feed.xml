@@ -10,20 +10,18 @@
     <description>Daily 10–15 minute briefing covering U.S. power, utilities, and infrastructure news.</description>
     <itunes:summary>Daily 10–15 minute briefing covering U.S. power, utilities, and infrastructure news.</itunes:summary>
 
-    <itunes:author>Automated Briefing</itunes:author>
+    <itunes:author>Darian Aghili</itunes:author>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
 
     <itunes:owner>
       <itunes:name>Darian Aghili</itunes:name>
-      <itunes:email>placeholder@example.com</itunes:email>
+      <itunes:email>darianaghili@gmail.com</itunes:email>
     </itunes:owner>
 
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
-
-    <itunes:image href="https://darianaghili.github.io/power_and_utilities_daily/cover.jpg" />
 
     <lastBuildDate>Mon, 01 Jan 2026 00:00:00 GMT</lastBuildDate>
 
