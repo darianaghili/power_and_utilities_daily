@@ -2,7 +2,8 @@ name: Daily Podcast Job
 
 on:
   schedule:
-    # 6:00 AM ET ≈ 11:00 UTC (standard time)
+    # Runs daily at 06:00 AM ET during standard time (roughly 11:00 UTC).
+    # Note: GitHub cron is UTC. This will shift by 1 hour during daylight savings time.
     - cron: "0 11 * * *"
   workflow_dispatch:
 
@@ -12,8 +13,8 @@ permissions:
 jobs:
   run:
     runs-on: ubuntu-latest
-    
-steps:
+
+    steps:
       - name: Check out repository
         uses: actions/checkout@v4
 
@@ -24,6 +25,7 @@ steps:
 
       - name: Install dependencies
         run: |
+          python -m pip install --upgrade pip
           pip install feedparser
 
       - name: Build daily brief (text)
@@ -31,11 +33,10 @@ steps:
           mkdir -p docs/briefs
           python scripts/build_brief.py > docs/briefs/latest.txt
 
-      - name: Commit changes
+      - name: Commit and push
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add docs/briefs/latest.txt
           git commit -m "Publish latest brief" || echo "No changes to commit"
           git push
-
