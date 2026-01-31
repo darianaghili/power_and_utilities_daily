@@ -31,20 +31,19 @@ def ensure_tools_exist():
 
 def generate_mp3(text: str, mp3_path: Path):
     """
-    Generate WAV with espeak-ng, then convert to MP3 with ffmpeg.
+    Generate WAV with espeak-ng reading from stdin, then convert to MP3 with ffmpeg.
     """
     tmp_wav = mp3_path.with_suffix(".wav")
 
-    # espeak-ng -> wav
-    subprocess.check_call([
-        "espeak-ng",
-        "-v", "en-us",
-        "-s", "150",              # speed ~150 wpm-ish
-        "-w", str(tmp_wav),
-        text
-    ])
+    p = subprocess.run(
+        ["espeak-ng", "-v", "en-us", "-s", "150", "-w", str(tmp_wav)],
+        input=text,
+        text=True,
+        capture_output=True
+    )
+    if p.returncode != 0:
+        raise RuntimeError(f"espeak-ng failed: {p.stderr.strip()}")
 
-    # wav -> mp3 (mono speech)
     subprocess.check_call([
         "ffmpeg", "-y",
         "-i", str(tmp_wav),
@@ -54,7 +53,6 @@ def generate_mp3(text: str, mp3_path: Path):
         str(mp3_path)
     ])
 
-    # cleanup wav
     try:
         tmp_wav.unlink()
     except Exception:
