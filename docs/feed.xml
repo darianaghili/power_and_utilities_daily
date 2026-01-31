@@ -6,23 +6,34 @@
     <title>Power, Utilities &amp; Infrastructure — Daily Brief</title>
     <link>https://darianaghili.github.io/power_and_utilities_daily/</link>
     <language>en-us</language>
-    <description>
-      Daily 10–15 minute briefing covering U.S. power, utilities, and infrastructure news.
-    </description>
+
+    <description>Daily 10–15 minute briefing covering U.S. power, utilities, and infrastructure news.</description>
+    <itunes:summary>Daily 10–15 minute briefing covering U.S. power, utilities, and infrastructure news.</itunes:summary>
 
     <itunes:author>Automated Briefing</itunes:author>
     <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+
+    <itunes:owner>
+      <itunes:name>Darian Aghili</itunes:name>
+      <itunes:email>placeholder@example.com</itunes:email>
+    </itunes:owner>
+
+    <itunes:category text="News">
+      <itunes:category text="Business News"/>
+    </itunes:category>
 
     <itunes:image href="https://darianaghili.github.io/power_and_utilities_daily/cover.jpg" />
+
+    <lastBuildDate>Mon, 01 Jan 2026 00:00:00 GMT</lastBuildDate>
 
     <!-- Placeholder episode so podcast apps validate the feed -->
     <item>
       <title>Feed initialized</title>
-      <description>
-        This is a placeholder episode to initialize the feed.
-      </description>
+      <description>This is a placeholder episode to initialize the feed.</description>
+      <itunes:summary>This is a placeholder episode to initialize the feed.</itunes:summary>
       <pubDate>Mon, 01 Jan 2026 00:00:00 GMT</pubDate>
-      <guid>init-episode</guid>
+      <guid isPermaLink="false">init-episode</guid>
     </item>
 
   </channel>
