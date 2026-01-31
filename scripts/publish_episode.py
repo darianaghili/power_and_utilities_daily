@@ -15,13 +15,53 @@ MP3_BITRATE = "64k"   # good for speech
 MP3_RATE = "22050"    # speech-friendly sample rate
 MP3_CHANNELS = "1"    # mono
 
-def strip_non_speech(text: str) -> str:
+def speech_optimize(text: str) -> str:
     """
-    Keep this simple: remove URLs (they sound bad) and compress whitespace.
+    Make the script sound better when spoken:
+    - Remove URLs
+    - Remove leftover wrappers (if any)
+    - Insert pauses between sections and stories
+    - Add simple signposting so transitions sound natural
     """
+    # Remove URLs (they sound terrible in TTS)
     text = re.sub(r"https?://\S+", "", text)
-    text = re.sub(r"\s+", " ", text).strip()
-    return text
+
+    # Remove any wrapper lines if they still exist
+    text = text.replace("---- SCRIPT START ----", "").replace("---- SCRIPT END ----", "")
+
+    # Normalize whitespace
+    text = re.sub(r"\r\n", "\n", text)
+    text = re.sub(r"[ \t]+", " ", text)
+
+    # Add an intro pause after the title line
+    # (First line is usually the title)
+    lines = text.strip().split("\n")
+    if lines:
+        lines[0] = lines[0].strip() + "..."
+    text = "\n".join(lines)
+
+    # Add stronger pauses at paragraph breaks:
+    # Convert blank lines into an audible pause cue.
+    # espeak respects punctuation; ellipses create a noticeable pause.
+    text = re.sub(r"\n\s*\n+", "\n\n...\n\n", text)
+
+    # Improve story transitions:
+    # Insert "Next story" before each numbered item after the first
+    text = re.sub(r"\n\n(\d+)\.\s", lambda m: ("\n\nNext story...\n\n" if m.group(1) != "1" else "\n\n") + m.group(0).lstrip("\n"), text)
+
+    # Replace em dashes and odd characters with TTS-friendly versions
+    text = text.replace("—", ", ")
+    text = text.replace("–", ", ")
+
+    # Compress excessive ellipses (keep at most 3 dots)
+    text = re.sub(r"\.{4,}", "...", text)
+
+    # Final cleanup
+    text = re.sub(r"\s+\n", "\n", text)
+    text = re.sub(r"\n{3,}", "\n\n", text)
+
+    return text.strip()
+
 
 def ensure_tools_exist():
     # Ensure espeak-ng and ffmpeg exist
@@ -128,7 +168,8 @@ def main():
 
     # Read brief and prep speech text
     brief_raw = BRIEF_PATH.read_text(encoding="utf-8")
-    speech_text = strip_non_speech(brief_raw)
+    speech_text = speech_optimize(brief_raw)
+
 
     # Generate audio (idempotent: if MP3 exists, regenerate anyway to match latest brief)
     generate_mp3(speech_text, mp3_path)
