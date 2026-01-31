@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+
+  <channel>
+    <title>Power, Utilities & Infrastructure — Daily Brief</title>
+    <link>https://darianaghili.github.io/power_and_utilities_daily/</link>
+    <language>en-us</language>
+    <description>
+      Daily 10–15 minute briefing covering U.S. power, utilities, and infrastructure news.
+    </description>
+
+    <itunes:author>Automated Briefing</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+
+    <itunes:image href="https://darianaghili.github.io/power_and_utilities_daily/cover.jpg" />
+
+    <!-- Placeholder episode so podcast apps validate the feed -->
+    <item>
+      <title>Feed initialized</title>
+      <description>
+        This is a placeholder episode to initialize the feed.
+      </description>
+      <pubDate>Mon, 01 Jan 2026 00:00:00 GMT</pubDate>
+      <guid>init-episode</guid>
+    </item>
+
+  </channel>
+</rss>
