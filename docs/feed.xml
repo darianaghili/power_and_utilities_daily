@@ -26,7 +26,19 @@
     <lastBuildDate>Mon, 01 Jan 2026 00:00:00 GMT</lastBuildDate>
 
     <!-- Placeholder episode so podcast apps validate the feed -->
-    <item>
+        <item>
+      <title>Test episode</title>
+      <description>Audio delivery test.</description>
+      <itunes:summary>Audio delivery test.</itunes:summary>
+      <pubDate>Fri, 31 Jan 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">test-episode-001</guid>
+      <enclosure
+        url="https://darianaghili.github.io/power_and_utilities_daily/eps/sample-3s.mp3"
+        length="50900"
+        type="audio/mpeg" />
+    </item>
+
+       <item>
       <title>Feed initialized</title>
       <description>This is a placeholder episode to initialize the feed.</description>
       <itunes:summary>This is a placeholder episode to initialize the feed.</itunes:summary>
