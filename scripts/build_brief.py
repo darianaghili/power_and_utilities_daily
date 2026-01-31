@@ -183,9 +183,7 @@ def main():
     # Write output to docs (published)
     out_path = "docs/briefs"
     # In GitHub Actions we will ensure folder exists before running, but keep simple here
-    print("---- SCRIPT START ----")
     print(script)
-    print("---- SCRIPT END ----")
 
 
 if __name__ == "__main__":
