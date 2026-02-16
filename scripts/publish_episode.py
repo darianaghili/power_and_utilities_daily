@@ -233,8 +233,8 @@ def main():
     mp3_path = EPS_DIR / mp3_filename
 
     if mp3_path.exists():
-    print(f"Episode MP3 already exists for {date_str}; skipping publish.")
-    return
+        print(f"Episode MP3 already exists for {date_str}; skipping publish.")
+        return
 
 
     brief_raw = BRIEF_PATH.read_text(encoding="utf-8")
