@@ -212,7 +212,6 @@ def main():
 
     EPS_DIR.mkdir(parents=True, exist_ok=True)
 
-    # TEST mode: create a test MP3 only (no feed update)
     is_test = os.environ.get("TEST_RUN", "0") == "1"
 
     now_utc = dt.datetime.now(dt.timezone.utc)
@@ -233,16 +232,16 @@ def main():
     speech_text = speech_optimize(brief_raw)
 
     print(f"TTS text length: {len(speech_text)} characters")
-try:
-    audio_bytes = elevenlabs_tts_mp3(speech_text)
-    mp3_path.write_bytes(audio_bytes)
-    print("TTS: ElevenLabs (primary) succeeded.")
-except Exception as e:
-    print(f"TTS: ElevenLabs failed: {e}")
-    print("TTS: Falling back to offline espeak-ng.")
-    fallback_espeak_to_mp3(speech_text, mp3_path)
-    print("TTS: Fallback succeeded.")
 
+    try:
+        audio_bytes = elevenlabs_tts_mp3(speech_text)
+        mp3_path.write_bytes(audio_bytes)
+        print("TTS: ElevenLabs (primary) succeeded.")
+    except Exception as e:
+        print(f"TTS: ElevenLabs failed: {e}")
+        print("TTS: Falling back to offline espeak-ng.")
+        fallback_espeak_to_mp3(speech_text, mp3_path)
+        print("TTS: Fallback succeeded.")
 
     enclosure_len = file_size_bytes(mp3_path)
     enclosure_url = f"{SITE_BASE}/eps/{mp3_filename}"
@@ -267,6 +266,7 @@ except Exception as e:
     print(f"Published episode: {title}")
     print(f"MP3: {mp3_path} ({enclosure_len} bytes)")
     print(f"Enclosure URL: {enclosure_url}")
+
 
 
 if __name__ == "__main__":
