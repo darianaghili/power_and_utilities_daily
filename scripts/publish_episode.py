@@ -34,6 +34,15 @@ ELEVEN_VOICE_ID = "pqHfZKP75CvOlQylNhV4"
 ELEVEN_MODEL_ID = "eleven_multilingual_v2"
 ELEVEN_OUTPUT_FORMAT = "mp3_44100_128"  # good quality MP3
 
+# OpenAI TTS settings
+OPENAI_TTS_MODEL = "gpt-4o-mini-tts"
+OPENAI_TTS_VOICE = "alloy"
+OPENAI_TTS_SPEED = 1.0
+OPENAI_TTS_FORMAT = "mp3"
+
+# OpenAI TTS input limit per request
+OPENAI_MAX_CHARS = 4096
+
 # Length control for spoken output (optional safety)
 MAX_CHARS = 12000  # if you hit API limits, we will add chunking later
 
@@ -80,6 +89,89 @@ def speech_optimize(text: str) -> str:
 
     return text
 
+def chunk_text(text: str, max_chars: int) -> list[str]:
+    """
+    Split text into <= max_chars chunks, preferring paragraph boundaries.
+    """
+    paras = text.split("\n\n")
+    chunks = []
+    cur = ""
+    for p in paras:
+        candidate = (cur + ("\n\n" if cur else "") + p).strip()
+        if len(candidate) <= max_chars:
+            cur = candidate
+        else:
+            if cur:
+                chunks.append(cur)
+                cur = ""
+            # If one paragraph is still too long, hard-split.
+            while len(p) > max_chars:
+                chunks.append(p[:max_chars])
+                p = p[max_chars:]
+            cur = p
+    if cur:
+        chunks.append(cur)
+    return chunks
+
+
+def openai_tts_mp3(text: str) -> bytes:
+    """
+    Call OpenAI TTS and return MP3 bytes.
+    """
+    api_key = os.environ.get("OPENAI_API_KEY")
+    if not api_key:
+        raise RuntimeError("Missing OPENAI_API_KEY environment variable (add it as a GitHub Actions secret).")
+
+    url = "https://api.openai.com/v1/audio/speech"
+    payload = {
+        "model": OPENAI_TTS_MODEL,
+        "voice": OPENAI_TTS_VOICE,
+        "input": text,
+        "format": OPENAI_TTS_FORMAT,
+        "speed": OPENAI_TTS_SPEED,
+        # Optional (supported by gpt-4o-mini-tts):
+        # "instructions": "Professional broadcast narration. Neutral tone. Moderate pace. Clear enunciation."
+    }
+
+    req = urllib.request.Request(
+        url=url,
+        data=json.dumps(payload).encode("utf-8"),
+        headers={
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {api_key}",
+        },
+        method="POST",
+    )
+
+    try:
+        with urllib.request.urlopen(req, timeout=180) as resp:
+            return resp.read()
+    except urllib.error.HTTPError as e:
+        body = e.read().decode("utf-8", errors="ignore")
+        raise RuntimeError(f"OpenAI TTS HTTPError {e.code}: {body}") from e
+    except Exception as e:
+        raise RuntimeError(f"OpenAI TTS request failed: {e}") from e
+
+
+def concat_mp3_files(mp3_paths: list[Path], out_path: Path):
+    """
+    Concatenate MP3 files using ffmpeg concat demuxer.
+    """
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+
+    with tempfile.TemporaryDirectory() as td:
+        list_path = Path(td) / "concat_list.txt"
+        lines = [f"file '{p.resolve()}'" for p in mp3_paths]
+        list_path.write_text("\n".join(lines), encoding="utf-8")
+
+        subprocess.check_call([
+            "ffmpeg", "-y",
+            "-f", "concat",
+            "-safe", "0",
+            "-i", str(list_path),
+            "-c", "copy",
+            str(out_path)
+        ])
 
 def elevenlabs_tts_mp3(text: str) -> bytes:
     """
@@ -243,14 +335,28 @@ def main():
     print(f"TTS text length: {len(speech_text)} characters")
 
     try:
-        audio_bytes = elevenlabs_tts_mp3(speech_text)
-        mp3_path.write_bytes(audio_bytes)
-        print("TTS: ElevenLabs (primary) succeeded.")
+        chunks = chunk_text(speech_text, OPENAI_MAX_CHARS)
+        print(f"TTS: OpenAI chunk count: {len(chunks)}")
+
+        tmp_dir = EPS_DIR / "tmp_tts" / date_str
+        tmp_dir.mkdir(parents=True, exist_ok=True)
+
+        chunk_files = []
+        for i, ch in enumerate(chunks, start=1):
+            print(f"TTS: OpenAI chunk {i}/{len(chunks)} length={len(ch)}")
+            audio_bytes = openai_tts_mp3(ch)
+            chunk_path = tmp_dir / f"chunk_{i:03d}.mp3"
+            chunk_path.write_bytes(audio_bytes)
+            chunk_files.append(chunk_path)
+
+        concat_mp3_files(chunk_files, mp3_path)
+        print("TTS: OpenAI (primary) succeeded.")
     except Exception as e:
-        print(f"TTS: ElevenLabs failed: {e}")
+        print(f"TTS: OpenAI failed: {e}")
         print("TTS: Falling back to offline espeak-ng.")
         fallback_espeak_to_mp3(speech_text, mp3_path)
         print("TTS: Fallback succeeded.")
+
 
     enclosure_len = file_size_bytes(mp3_path)
     enclosure_url = f"{SITE_BASE}/eps/{mp3_filename}"

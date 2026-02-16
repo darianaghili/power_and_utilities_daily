@@ -44,10 +44,14 @@ jobs:
 
       - name: Publish episode (MP3 + RSS)
         env:
-          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
           mkdir -p docs/eps
           python scripts/publish_episode.py
+
+      - name: Verify OpenAI key present
+        run: |
+          python -c "import os: assert os. getenv('OPENAI_API_KEY'), 'OPENAI_API_KEY NOT SET'"
 
       - name: Commit and push
         run: |
