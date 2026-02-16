@@ -46,12 +46,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          python - <<EOF
-    import os
-    if not os.getenv("OPENAI_API_KEY"):
-        raise SystemExit("OPENAI_API_KEY NOT SET")
-    print("OPENAI_API_KEY detected.")
-    EOF
+          python -c "import os; assert os.getenv('OPENAI_API_KEY'), 'OPENAI_API_KEY NOT SET'; print('OPENAI_API_KEY detected.')"
 
       - name: Publish episode (MP3 + RSS)
         env:
@@ -59,10 +54,6 @@ jobs:
         run: |
           mkdir -p docs/eps
           python scripts/publish_episode.py
-
-      - name: Verify OpenAI key present
-        run: |
-          python -c "import os: assert os. getenv('OPENAI_API_KEY'), 'OPENAI_API_KEY NOT SET'"
 
       - name: Commit and push
         run: |
