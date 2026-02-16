@@ -233,7 +233,7 @@ def main():
     speech_text = speech_optimize(brief_raw)
 
     print(f"TTS text length: {len(speech_text)} characters")
-    try:
+try:
     audio_bytes = elevenlabs_tts_mp3(speech_text)
     mp3_path.write_bytes(audio_bytes)
     print("TTS: ElevenLabs (primary) succeeded.")
