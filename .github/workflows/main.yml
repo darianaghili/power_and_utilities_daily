@@ -38,13 +38,10 @@ jobs:
           mkdir -p docs/briefs
           python scripts/build_brief.py > docs/briefs/latest.txt
 
-         - name: Publish episode (MP3 + RSS)
-        env:
-          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
-          TEST_RUN: "1"
+      - name: Publish episode (MP3 + RSS)
         run: |
+          mkdir -p docs/eps
           python scripts/publish_episode.py
-
 
       - name: Commit and push
         run: |
