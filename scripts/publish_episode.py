@@ -1,162 +1,221 @@
- import datetime as dt
-+import importlib
-+import importlib.util
- import os
- import re
- import subprocess
- from pathlib import Path
- from email.utils import format_datetime
- 
- SITE_BASE = "https://darianaghili.github.io/power_and_utilities_daily"
- FEED_PATH = Path("docs/feed.xml")
- BRIEF_PATH = Path("docs/briefs/latest.txt")
- EPS_DIR = Path("docs/eps")
- 
- # Audio settings: voice-only, small file sizes
- MP3_BITRATE = "64k"   # good for speech
- MP3_RATE = "22050"    # speech-friendly sample rate
- MP3_CHANNELS = "1"    # mono
- 
-+# Preferred neural voice defaults (Microsoft Edge TTS).
-+# Falls back to espeak-ng when edge-tts is unavailable.
-+EDGE_VOICE = os.getenv("EDGE_TTS_VOICE", "en-US-AndrewNeural")
-+EDGE_RATE = os.getenv("EDGE_TTS_RATE", "+0%")
-+EDGE_PITCH = os.getenv("EDGE_TTS_PITCH", "+0Hz")
-+
- def speech_optimize(text: str) -> str:
-     """
-     Make the script sound better when spoken:
-     - Remove URLs
-     - Remove leftover wrappers (if any)
-     - Insert pauses between sections and stories
-     - Add simple signposting so transitions sound natural
-     """
-     # Remove URLs (they sound terrible in TTS)
-     text = re.sub(r"https?://\S+", "", text)
- 
-     # Remove any wrapper lines if they still exist
-     text = text.replace("---- SCRIPT START ----", "").replace("---- SCRIPT END ----", "")
- 
-     # Normalize whitespace
-     text = re.sub(r"\r\n", "\n", text)
-     text = re.sub(r"[ \t]+", " ", text)
- 
-     # Add an intro pause after the title line
-     # (First line is usually the title)
-     lines = text.strip().split("\n")
-     if lines:
-         lines[0] = lines[0].strip() + "..."
-     text = "\n".join(lines)
- 
-     # Add stronger pauses at paragraph breaks:
-     # Convert blank lines into an audible pause cue.
-     # espeak respects punctuation; ellipses create a noticeable pause.
-     text = re.sub(r"\n\s*\n+", "\n\n...\n\n", text)
- 
-     # Improve story transitions:
-     # Insert "Next story" before each numbered item after the first
-     text = re.sub(r"\n\n(\d+)\.\s", lambda m: ("\n\nNext story...\n\n" if m.group(1) != "1" else "\n\n") + m.group(0).lstrip("\n"), text)
- 
-     # Replace em dashes and odd characters with TTS-friendly versions
-     text = text.replace("—", ", ")
-     text = text.replace("–", ", ")
- 
-     # Compress excessive ellipses (keep at most 3 dots)
-     text = re.sub(r"\.{4,}", "...", text)
- 
-     # Final cleanup
-     text = re.sub(r"\s+\n", "\n", text)
-     text = re.sub(r"\n{3,}", "\n\n", text)
- 
-     return text.strip()
- 
- 
- def ensure_tools_exist():
--    # Ensure espeak-ng and ffmpeg exist
--    for tool in ["espeak-ng", "ffmpeg"]:
-+    # Ensure ffmpeg + fallback tts engine exist.
-+    for tool in ["ffmpeg", "espeak-ng"]:
-         if subprocess.run(["bash", "-lc", f"command -v {tool}"], capture_output=True).returncode != 0:
-             raise RuntimeError(f"Missing required tool: {tool}")
- 
--def generate_mp3(text: str, mp3_path: Path):
-+
-+def edge_tts_available() -> bool:
-+    return importlib.util.find_spec("edge_tts") is not None
-+
-+
-+def render_with_edge_tts(text: str, wav_path: Path):
-+    edge_tts = importlib.import_module("edge_tts")
-+
-+    async def _render():
-+        communicate = edge_tts.Communicate(
-+            text,
-+            voice=EDGE_VOICE,
-+            rate=EDGE_RATE,
-+            pitch=EDGE_PITCH,
-+        )
-+        await communicate.save(str(wav_path))
-+
-+    import asyncio
-+    asyncio.run(_render())
-+
-+
-+def render_with_espeak(text: str, wav_path: Path):
-     """
--    Generate WAV with espeak-ng reading from stdin, then convert to MP3 with ffmpeg.
-+    Generate WAV with espeak-ng reading from stdin.
-     """
--    tmp_wav = mp3_path.with_suffix(".wav")
--
-     p = subprocess.run(
--        ["espeak-ng", "-v", "en-us", "-s", "145", "-p", "55", "-w", str(tmp_wav)],
-+        ["espeak-ng", "-v", "en-us", "-s", "145", "-p", "55", "-w", str(wav_path)],
-         input=text,
-         text=True,
-         capture_output=True
-     )
-     if p.returncode != 0:
-         raise RuntimeError(f"espeak-ng failed: {p.stderr.strip()}")
- 
-+def generate_mp3(text: str, mp3_path: Path):
-+    """
-+    Prefer neural edge-tts output when available, then convert to MP3 with ffmpeg.
-+    Fallback to espeak-ng for environments where edge-tts is not installed.
-+    """
-+    tmp_wav = mp3_path.with_suffix(".wav")
-+
-+    if edge_tts_available():
-+        print(f"Using neural TTS voice: {EDGE_VOICE}")
-+        render_with_edge_tts(text, tmp_wav)
-+    else:
-+        print("edge-tts not installed; using espeak-ng fallback voice.")
-+        render_with_espeak(text, tmp_wav)
-+
-     subprocess.check_call([
-     "ffmpeg", "-y",
-     "-i", str(tmp_wav),
-     "-af",
-     "highpass=f=80, lowpass=f=9000, "
-     "acompressor=threshold=-18dB:ratio=3:attack=20:release=250",
-     "-ac", MP3_CHANNELS,
-     "-ar", MP3_RATE,
-     "-b:a", MP3_BITRATE,
-     str(mp3_path)
- ])
- 
-     try:
-         tmp_wav.unlink()
-     except Exception:
-         pass
- 
- def file_size_bytes(path: Path) -> int:
-     return path.stat().st_size
- 
- def update_feed_xml(title: str, description: str, pub_dt_utc: dt.datetime, enclosure_url: str, enclosure_len: int, guid: str):
-     """
-     Insert a new <item> right before the placeholder 'Feed initialized' item.
-     Also update <lastBuildDate>.
-     """
- 
-EOF
-)
+import datetime as dt
+import json
+import os
+import re
+import urllib.request
+import urllib.error
+from email.utils import format_datetime
+from pathlib import Path
+
+
+# ----------------------------
+# Configuration
+# ----------------------------
+SITE_BASE = "https://darianaghili.github.io/power_and_utilities_daily"
+
+FEED_PATH = Path("docs/feed.xml")
+BRIEF_PATH = Path("docs/briefs/latest.txt")
+EPS_DIR = Path("docs/eps")
+
+# ElevenLabs settings
+ELEVEN_VOICE_ID = "pqHfZKP75CvOlQylNhV4"
+ELEVEN_MODEL_ID = "eleven_multilingual_v2"
+ELEVEN_OUTPUT_FORMAT = "mp3_44100_128"  # good quality MP3
+
+# Length control for spoken output (optional safety)
+MAX_CHARS = 12000  # if you hit API limits, we will add chunking later
+
+
+def speech_optimize(text: str) -> str:
+    """
+    Make text more listenable:
+    - remove URLs
+    - normalize whitespace
+    - add pauses between sections
+    - slightly improve transitions
+    """
+    text = text.replace("\r\n", "\n")
+
+    # Remove URLs entirely (they sound bad in TTS)
+    text = re.sub(r"https?://\S+", "", text)
+
+    # Remove any leftover wrapper markers if they exist
+    text = text.replace("---- SCRIPT START ----", "").replace("---- SCRIPT END ----", "")
+
+    # Normalize whitespace
+    text = re.sub(r"[ \t]+", " ", text)
+    text = re.sub(r"\n\s*\n+", "\n\n", text).strip()
+
+    # Add a small pause after headline line (first line)
+    lines = text.split("\n")
+    if lines:
+        lines[0] = lines[0].strip() + "..."
+    text = "\n".join(lines)
+
+    # Add audible pauses between paragraphs
+    text = re.sub(r"\n\s*\n", "\n\n...\n\n", text)
+
+    # Optional: add a transition cue between numbered stories (2..N)
+    # Looks for paragraph breaks followed by "2. " / "3. " etc.
+    text = re.sub(r"\n\n(\d+)\.\s", lambda m: ("\n\nNext story...\n\n" + m.group(0).lstrip("\n")) if m.group(1) != "1" else m.group(0), text)
+
+    # Replace long dashes with commas (TTS-friendly)
+    text = text.replace("—", ", ").replace("–", ", ")
+
+    # Final cleanup
+    text = re.sub(r"\s+\n", "\n", text)
+    text = re.sub(r"\n{3,}", "\n\n", text).strip()
+
+    return text
+
+
+def elevenlabs_tts_mp3(text: str) -> bytes:
+    """
+    Call ElevenLabs TTS and return MP3 bytes.
+    """
+    api_key = os.environ.get("ELEVENLABS_API_KEY")
+    if not api_key:
+        raise RuntimeError("Missing ELEVENLABS_API_KEY environment variable (add it as a GitHub Actions secret).")
+
+    if len(text) > MAX_CHARS:
+        # Keep a hard stop rather than fail silently.
+        # If you hit this, we will add chunking + concatenation.
+        raise RuntimeError(f"Text too long for current MAX_CHARS ({MAX_CHARS}). Length={len(text)}")
+
+    url = f"https://api.elevenlabs.io/v1/text-to-speech/{ELEVEN_VOICE_ID}?output_format={ELEVEN_OUTPUT_FORMAT}"
+    payload = {
+        "text": text,
+        "model_id": ELEVEN_MODEL_ID,
+    }
+
+    req = urllib.request.Request(
+        url=url,
+        data=json.dumps(payload).encode("utf-8"),
+        headers={
+            "Content-Type": "application/json",
+            "xi-api-key": api_key,
+            "Accept": "audio/mpeg",
+        },
+        method="POST",
+    )
+
+    try:
+        with urllib.request.urlopen(req, timeout=180) as resp:
+            return resp.read()
+    except urllib.error.HTTPError as e:
+        body = e.read().decode("utf-8", errors="ignore")
+        raise RuntimeError(f"ElevenLabs HTTPError {e.code}: {body}") from e
+    except Exception as e:
+        raise RuntimeError(f"ElevenLabs request failed: {e}") from e
+
+
+def file_size_bytes(path: Path) -> int:
+    return path.stat().st_size
+
+
+def escape_xml(s: str) -> str:
+    return (s.replace("&", "&amp;")
+            .replace("<", "&lt;")
+            .replace(">", "&gt;")
+            .replace('"', "&quot;")
+            .replace("'", "&apos;"))
+
+
+def update_feed_xml(title: str, description: str, pub_dt_utc: dt.datetime, enclosure_url: str, enclosure_len: int, guid: str):
+    """
+    Insert a new <item> right before the placeholder marker in feed.xml.
+    Also update <lastBuildDate>.
+    """
+    if not FEED_PATH.exists():
+        raise RuntimeError("docs/feed.xml not found.")
+
+    xml = FEED_PATH.read_text(encoding="utf-8")
+
+    # Update lastBuildDate
+    last_build = format_datetime(pub_dt_utc)
+    xml = re.sub(r"<lastBuildDate>.*?</lastBuildDate>",
+                 f"<lastBuildDate>{last_build}</lastBuildDate>",
+                 xml, flags=re.DOTALL)
+
+    # Avoid duplicates
+    if guid in xml or enclosure_url in xml:
+        print("Episode already present in feed; skipping feed update.")
+        FEED_PATH.write_text(xml, encoding="utf-8")
+        return
+
+    item_xml = f"""
+    <item>
+      <title>{escape_xml(title)}</title>
+      <description>{escape_xml(description)}</description>
+      <itunes:summary>{escape_xml(description)}</itunes:summary>
+      <pubDate>{format_datetime(pub_dt_utc)}</pubDate>
+      <guid isPermaLink="false">{escape_xml(guid)}</guid>
+      <enclosure url="{escape_xml(enclosure_url)}" length="{enclosure_len}" type="audio/mpeg" />
+    </item>
+"""
+
+    marker = "<!-- Placeholder episode"
+    if marker not in xml:
+        raise RuntimeError("Could not find placeholder marker in feed.xml. Keep the placeholder comment so we can insert new items safely.")
+
+    xml = xml.replace(marker, item_xml + "    " + marker)
+    FEED_PATH.write_text(xml, encoding="utf-8")
+
+
+def main():
+    if not BRIEF_PATH.exists():
+        raise RuntimeError("Brief file not found: docs/briefs/latest.txt")
+
+    EPS_DIR.mkdir(parents=True, exist_ok=True)
+
+    # TEST mode: create a test MP3 only (no feed update)
+    is_test = os.environ.get("TEST_RUN", "0") == "1"
+
+    now_utc = dt.datetime.now(dt.timezone.utc)
+    date_str = now_utc.strftime("%Y-%m-%d")
+
+    if is_test:
+        mp3_filename = "test-elevenlabs.mp3"
+        guid = f"test-elevenlabs-{int(now_utc.timestamp())}"
+        title = "ElevenLabs voice test"
+    else:
+        mp3_filename = f"{date_str}.mp3"
+        guid = f"daily-brief-{date_str}"
+        title = f"Daily Brief — {date_str}"
+
+    mp3_path = EPS_DIR / mp3_filename
+
+    brief_raw = BRIEF_PATH.read_text(encoding="utf-8")
+    speech_text = speech_optimize(brief_raw)
+
+    print(f"TTS text length: {len(speech_text)} characters")
+    audio_bytes = elevenlabs_tts_mp3(speech_text)
+    mp3_path.write_bytes(audio_bytes)
+
+    enclosure_len = file_size_bytes(mp3_path)
+    enclosure_url = f"{SITE_BASE}/eps/{mp3_filename}"
+
+    description = "Automated daily briefing. Links are in the show notes."
+
+    if is_test:
+        print("TEST_RUN=1 set; skipping feed.xml update.")
+        print(f"Test MP3 written: {mp3_path} ({enclosure_len} bytes)")
+        print(f"URL: {enclosure_url}")
+        return
+
+    update_feed_xml(
+        title=title,
+        description=description,
+        pub_dt_utc=now_utc,
+        enclosure_url=enclosure_url,
+        enclosure_len=enclosure_len,
+        guid=guid
+    )
+
+    print(f"Published episode: {title}")
+    print(f"MP3: {mp3_path} ({enclosure_len} bytes)")
+    print(f"Enclosure URL: {enclosure_url}")
+
+
+if __name__ == "__main__":
+    main()
