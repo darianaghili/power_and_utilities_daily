@@ -4,6 +4,8 @@ import os
 import re
 import urllib.request
 import urllib.error
+import subprocess
+import tempfile
 from email.utils import format_datetime
 from pathlib import Path
 
@@ -16,6 +18,16 @@ SITE_BASE = "https://darianaghili.github.io/power_and_utilities_daily"
 FEED_PATH = Path("docs/feed.xml")
 BRIEF_PATH = Path("docs/briefs/latest.txt")
 EPS_DIR = Path("docs/eps")
+
+# Fallback (offline) TTS settings
+FALLBACK_VOICE = "en-us+m3"
+FALLBACK_SPEED = "140"
+FALLBACK_PITCH = "48"
+
+# Fallback MP3 encoding
+FALLBACK_MP3_RATE = "22050"
+FALLBACK_MP3_BITRATE = "64k"
+FALLBACK_MP3_CHANNELS = "1"
 
 # ElevenLabs settings
 ELEVEN_VOICE_ID = "pqHfZKP75CvOlQylNhV4"
@@ -108,6 +120,38 @@ def elevenlabs_tts_mp3(text: str) -> bytes:
     except Exception as e:
         raise RuntimeError(f"ElevenLabs request failed: {e}") from e
 
+def fallback_espeak_to_mp3(text: str, mp3_path: Path):
+    """
+    Offline fallback: espeak-ng -> wav -> ffmpeg -> mp3
+    """
+    mp3_path.parent.mkdir(parents=True, exist_ok=True)
+
+    with tempfile.TemporaryDirectory() as td:
+        wav_path = Path(td) / "speech.wav"
+
+        # Create WAV using espeak-ng reading from stdin (robust)
+        p = subprocess.run(
+            ["espeak-ng", "-v", FALLBACK_VOICE, "-s", FALLBACK_SPEED, "-p", FALLBACK_PITCH, "-w", str(wav_path)],
+            input=text,
+            text=True,
+            capture_output=True
+        )
+        if p.returncode != 0:
+            raise RuntimeError(f"espeak-ng failed: {p.stderr.strip()}")
+
+        # Convert WAV -> MP3 with basic radio-style processing
+        subprocess.check_call([
+            "ffmpeg", "-y",
+            "-i", str(wav_path),
+            "-af",
+            "highpass=f=80, lowpass=f=9000, "
+            "acompressor=threshold=-18dB:ratio=3:attack=20:release=250, "
+            "loudnorm=I=-16:TP=-1.5:LRA=11",
+            "-ac", FALLBACK_MP3_CHANNELS,
+            "-ar", FALLBACK_MP3_RATE,
+            "-b:a", FALLBACK_MP3_BITRATE,
+            str(mp3_path)
+        ])
 
 def file_size_bytes(path: Path) -> int:
     return path.stat().st_size
@@ -189,8 +233,16 @@ def main():
     speech_text = speech_optimize(brief_raw)
 
     print(f"TTS text length: {len(speech_text)} characters")
+    try:
     audio_bytes = elevenlabs_tts_mp3(speech_text)
     mp3_path.write_bytes(audio_bytes)
+    print("TTS: ElevenLabs (primary) succeeded.")
+except Exception as e:
+    print(f"TTS: ElevenLabs failed: {e}")
+    print("TTS: Falling back to offline espeak-ng.")
+    fallback_espeak_to_mp3(speech_text, mp3_path)
+    print("TTS: Fallback succeeded.")
+
 
     enclosure_len = file_size_bytes(mp3_path)
     enclosure_url = f"{SITE_BASE}/eps/{mp3_filename}"
