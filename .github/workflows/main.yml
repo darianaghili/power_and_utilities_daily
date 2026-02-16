@@ -33,7 +33,6 @@ jobs:
       - name: Publish episode (MP3 + RSS)
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
-          TEST_RUN: "1"
         run: |
           mkdir -p docs/eps
           python scripts/publish_episode.py
