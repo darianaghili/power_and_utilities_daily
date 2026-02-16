@@ -42,6 +42,17 @@ jobs:
           mkdir -p docs/briefs
           python scripts/build_brief.py > docs/briefs/latest.txt
 
+      - name: Preflight OpenAI key present
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          python - <<EOF
+    import os
+    if not os.getenv("OPENAI_API_KEY"):
+        raise SystemExit("OPENAI_API_KEY NOT SET")
+    print("OPENAI_API_KEY detected.")
+    EOF
+
       - name: Publish episode (MP3 + RSS)
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
