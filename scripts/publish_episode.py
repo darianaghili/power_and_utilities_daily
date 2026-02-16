@@ -214,8 +214,12 @@ def main():
 
     is_test = os.environ.get("TEST_RUN", "0") == "1"
 
+    from zoneinfo import ZoneInfo  # add at top with imports
+    
     now_utc = dt.datetime.now(dt.timezone.utc)
-    date_str = now_utc.strftime("%Y-%m-%d")
+    now_et = now_utc.astimezone(ZoneInfo("America/New_York"))
+    date_str = now_et.strftime("%Y-%m-%d")
+
 
     if is_test:
         mp3_filename = "test-elevenlabs.mp3"
@@ -227,6 +231,11 @@ def main():
         title = f"Daily Brief — {date_str}"
 
     mp3_path = EPS_DIR / mp3_filename
+
+    if mp3_path.exists():
+    print(f"Episode MP3 already exists for {date_str}; skipping publish.")
+    return
+
 
     brief_raw = BRIEF_PATH.read_text(encoding="utf-8")
     speech_text = speech_optimize(brief_raw)
