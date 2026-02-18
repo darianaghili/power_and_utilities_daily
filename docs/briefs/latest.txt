@@ -1,24 +1,24 @@
-Power, Utilities & Infrastructure — Daily Brief (2026-02-17)
+Power, Utilities & Infrastructure — Daily Brief (2026-02-18)
 
 This is an automated, AI-generated audio briefing. Sources and links are in the show notes.
 
-1. ‘The industry comes in and kills the work of local citizens’ — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/02/17/virginia-prince-william-county-data-center-ee-1-00783356
-States and feds are doing little to affect data center growth. People in a Virginia county are pushing back but running into big obstacles.
+1. US grid reliability watchdog to recommend data center rules — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/02/18/us-grid-reliability-watchdog-to-recommend-data-center-rules-00784633
+The North American Electric Reliability Corp. is worried that fast-changing electricity flows while running AI models could destablize the grid.
 
-2. FERC commissioner to Trump admin: ‘Send me more LNG projects’ — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/02/17/ferc-commissioner-to-trump-admin-send-me-more-lng-projects-00780129
-The National Energy Dominance Council chair said FERC's David Rosner has pushed for more gas export proposals.
+2. Wartsila CEO wants to power more US data centers in AI-led boom — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/02/18/wartsila-ceo-wants-to-power-more-us-data-centers-in-ai-led-boom-00783975
+The Finnish manufacturer has secured three large U.S. gas-engine orders for data centers since last summer, totaling about 1.2 gigawatts.
 
-3. Trump's legal allies in the states sound off on energy rule rollbacks — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/02/17/trumps-state-legal-allies-sound-off-on-new-era-of-energy-climate-rollbacks-00781564
-The current administration has eased "insurmountable pressure" placed on states from the Biden-era rules, said the solicitor general of Ohio.
+3. Trouble or win for renewables? Industry unpacks Trump tax rules. — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/02/18/trouble-or-win-for-renewables-industry-unpacks-trump-tax-rules-00785020
+Solar, wind and battery developers that want to tap clean electricity or advanced manufacturing tax credits must ensure components in their products aren’t tied to U.S. adversaries.
 
-4. States push climate superfund bills despite Trump’s opposition — Canary Media
-Link: https://www.canarymedia.com/articles/climate-crisis/states-push-climate-superfund-bills-trump-opposition
-President Donald Trump has made it quite clear how he feels about state laws that aim to make fossil fuel companies pay for damages caused by climate change. An executive order issued in April compared these efforts — known as climate superfund laws — to extortion. The administration has since sued New York and…
+4. Big Tech meets Big Oil: Self-driving trucks roar into the Permian Basin — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/02/18/big-tech-meets-big-oil-self-driving-trucks-roar-into-permian-basin-00776486
+West Texas has been a longtime cash cow for the oil industry. Now it holds promise for automated trucking companies, too.
 
-5. Why Xcel’s bid to reinvent the virtual power plant is so controversial — Canary Media
-Link: https://www.canarymedia.com/articles/virtual-power-plants/xcel-capacity-connect-pushback-solar-batteries
-Back in the summer of 2024, Minnesota utility Xcel Energy proposed a novel approach to building virtual power plants , the networks of rooftop solar systems, home batteries, and other energy equipment that can operate in tandem to reduce strain on the electric grid. Instead of working with other companies to cobble…
+5. Trump says Japan will invest $36B in US energy projects — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/02/18/trump-says-japan-will-invest-36b-in-u-s-energy-projects-ee-00784968
+The projects include a $33 billion gas-fired power plant near Portsmouth, Ohio, that would be the largest of its kind in the United States.
 
