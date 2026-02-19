@@ -1,24 +1,24 @@
-Power, Utilities & Infrastructure — Daily Brief (2026-02-18)
+Power, Utilities & Infrastructure — Daily Brief (2026-02-19)
 
 This is an automated, AI-generated audio briefing. Sources and links are in the show notes.
 
-1. US grid reliability watchdog to recommend data center rules — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/02/18/us-grid-reliability-watchdog-to-recommend-data-center-rules-00784633
-The North American Electric Reliability Corp. is worried that fast-changing electricity flows while running AI models could destablize the grid.
+1. Shapiro tests Democrats’ data center strategy — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/02/19/shapiro-tests-democrats-data-center-strategy-ee-00767682
+Pennsylvania Gov. Josh Shapiro knows how to make data-center-friendly policies. He’s still trying to make them good politics.
 
-2. Wartsila CEO wants to power more US data centers in AI-led boom — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/02/18/wartsila-ceo-wants-to-power-more-us-data-centers-in-ai-led-boom-00783975
-The Finnish manufacturer has secured three large U.S. gas-engine orders for data centers since last summer, totaling about 1.2 gigawatts.
+2. FirstEnergy eyes DOE loan to build $2.6B gas plant — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/02/19/firstenergy-eyes-doe-loan-to-build-2-6b-gas-plant-00786842
+The utility wants federal financing to cover half the cost. CEO Brian Tierney has told investors to "expect approval before the end of the year."
 
-3. Trouble or win for renewables? Industry unpacks Trump tax rules. — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/02/18/trouble-or-win-for-renewables-industry-unpacks-trump-tax-rules-00785020
-Solar, wind and battery developers that want to tap clean electricity or advanced manufacturing tax credits must ensure components in their products aren’t tied to U.S. adversaries.
+3. How EPA challenged Maryland offshore wind project — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/02/19/how-epa-challenged-maryland-offshore-wind-project-00778226
+Emails from agency officials detail efforts to scrutinize a permit that state regulators gave the project last year.
 
-4. Big Tech meets Big Oil: Self-driving trucks roar into the Permian Basin — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/02/18/big-tech-meets-big-oil-self-driving-trucks-roar-into-permian-basin-00776486
-West Texas has been a longtime cash cow for the oil industry. Now it holds promise for automated trucking companies, too.
+4. Newsom names new top California utility regulator — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/02/19/newsom-names-new-top-california-utility-regulator-ee-00787221
+Commissioner John Reynolds will helm the California Public Utilities Commission amid a sharpened focus on affordability and reliability.
 
-5. Trump says Japan will invest $36B in US energy projects — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/02/18/trump-says-japan-will-invest-36b-in-u-s-energy-projects-ee-00784968
-The projects include a $33 billion gas-fired power plant near Portsmouth, Ohio, that would be the largest of its kind in the United States.
+5. Venezuela’s oil output can climb 30 to 40% this year, US says — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/02/19/venezuelas-oil-output-can-climb-30-to-40-this-year-us-says-00786528
+Such a boost would equate to about a third of global oil demand growth this year, said Energy Secretary Chris Wright.
 
