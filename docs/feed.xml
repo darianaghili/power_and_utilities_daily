@@ -23,7 +23,7 @@
       <itunes:category text="Business News"/>
     </itunes:category>
 
-    <lastBuildDate>Thu, 19 Feb 2026 12:05:44 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2026 11:59:16 +0000</lastBuildDate>
 
     
     <item>
@@ -205,6 +205,15 @@
       <pubDate>Thu, 19 Feb 2026 12:05:44 +0000</pubDate>
       <guid isPermaLink="false">daily-brief-2026-02-19</guid>
       <enclosure url="https://darianaghili.github.io/power_and_utilities_daily/eps/2026-02-19.mp3" length="865219" type="audio/mpeg" />
+    </item>
+    
+    <item>
+      <title>Daily Brief — 2026-02-20</title>
+      <description>Automated daily briefing. Narration is AI-generated. Links are in the show notes.</description>
+      <itunes:summary>Automated daily briefing. Narration is AI-generated. Links are in the show notes.</itunes:summary>
+      <pubDate>Fri, 20 Feb 2026 11:59:16 +0000</pubDate>
+      <guid isPermaLink="false">daily-brief-2026-02-20</guid>
+      <enclosure url="https://darianaghili.github.io/power_and_utilities_daily/eps/2026-02-20.mp3" length="795420" type="audio/mpeg" />
     </item>
     <!-- Placeholder episode so podcast apps validate the feed -->
    

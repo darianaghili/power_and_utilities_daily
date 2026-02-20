@@ -1,24 +1,24 @@
-Power, Utilities & Infrastructure — Daily Brief (2026-02-19)
+Power, Utilities & Infrastructure — Daily Brief (2026-02-20)
 
 This is an automated, AI-generated audio briefing. Sources and links are in the show notes.
 
-1. Shapiro tests Democrats’ data center strategy — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/02/19/shapiro-tests-democrats-data-center-strategy-ee-00767682
-Pennsylvania Gov. Josh Shapiro knows how to make data-center-friendly policies. He’s still trying to make them good politics.
+1. Heavy industry competes with AI for grid access — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/02/20/heavy-industry-competes-with-ai-for-grid-access-00781695
+The sale of a Kentucky aluminum smelter to a data center shows the race for cheap power.
 
-2. FirstEnergy eyes DOE loan to build $2.6B gas plant — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/02/19/firstenergy-eyes-doe-loan-to-build-2-6b-gas-plant-00786842
-The utility wants federal financing to cover half the cost. CEO Brian Tierney has told investors to "expect approval before the end of the year."
+2. FERC chair urges mid-Atlantic grid to act on rising costs — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/02/20/ferc-chair-urges-mid-atlantic-grid-to-act-on-rising-costs-ee-00789087
+PJM Interconnection faces pressure from the Trump administration and governors across its 13-state region to restructure the power market.
 
-3. How EPA challenged Maryland offshore wind project — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/02/19/how-epa-challenged-maryland-offshore-wind-project-00778226
-Emails from agency officials detail efforts to scrutinize a permit that state regulators gave the project last year.
+3. Developers offer construction plans for overlapping Southeast pipelines — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/02/20/developers-offer-construction-plans-for-overlapping-southeast-pipelines-00789650
+New FERC filings show that two pipelines aim to start building along the same 30-mile stretch in March.
 
-4. Newsom names new top California utility regulator — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/02/19/newsom-names-new-top-california-utility-regulator-ee-00787221
-Commissioner John Reynolds will helm the California Public Utilities Commission amid a sharpened focus on affordability and reliability.
+4. Bill calls for California data centers to shoulder more energy costs — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/02/20/mcnerney-introduces-bill-to-offset-data-center-power-costs-ee-00787192
+State Sen. Jerry McNerney’s bill would create a surcharge on large data centers in the state.
 
-5. Venezuela’s oil output can climb 30 to 40% this year, US says — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/02/19/venezuelas-oil-output-can-climb-30-to-40-this-year-us-says-00786528
-Such a boost would equate to about a third of global oil demand growth this year, said Energy Secretary Chris Wright.
+5. Oil prices rise on fears of US-Iran conflict — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/02/20/oil-prices-rise-on-fears-of-us-iran-conflict-00789144
+The threat of U.S. military action is causing investors to weigh the effects of possible oil supply disruptions.
 
