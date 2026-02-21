@@ -1,24 +1,24 @@
-Power, Utilities & Infrastructure — Daily Brief (2026-02-20)
+Power, Utilities & Infrastructure — Daily Brief (2026-02-21)
 
 This is an automated, AI-generated audio briefing. Sources and links are in the show notes.
 
-1. Heavy industry competes with AI for grid access — E&E Energywire (Politico)
+1. DOE ‘emergency’ power plant orders help grid reliability: NERC official — Utility Dive
+Link: https://www.utilitydive.com/news/doe-emergency-power-plant-orders-grid-reliability-nerc-ferc/812660/
+However, the Midcontinent Independent System Operator's reliability remains at &ldquo;high risk,&rdquo; NERC&rsquo;s John Moura said, and it's unclear whether its fast-track interconnection process will help.
+
+2. Heavy industry competes with AI for grid access — E&E Energywire (Politico)
 Link: https://subscriber.politicopro.com/article/eenews/2026/02/20/heavy-industry-competes-with-ai-for-grid-access-00781695
 The sale of a Kentucky aluminum smelter to a data center shows the race for cheap power.
 
-2. FERC chair urges mid-Atlantic grid to act on rising costs — E&E Energywire (Politico)
+3. FERC chair urges mid-Atlantic grid to act on rising costs — E&E Energywire (Politico)
 Link: https://subscriber.politicopro.com/article/eenews/2026/02/20/ferc-chair-urges-mid-atlantic-grid-to-act-on-rising-costs-ee-00789087
 PJM Interconnection faces pressure from the Trump administration and governors across its 13-state region to restructure the power market.
 
-3. Developers offer construction plans for overlapping Southeast pipelines — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/02/20/developers-offer-construction-plans-for-overlapping-southeast-pipelines-00789650
-New FERC filings show that two pipelines aim to start building along the same 30-mile stretch in March.
+4. From Courtroom to Capital Markets: Why US Tariff Instability Matters — CleanTechnica
+Link: https://cleantechnica.com/2026/02/20/from-courtroom-to-capital-markets-why-us-tariff-instability-matters/
+The Supreme Court’s decision limiting presidential tariff authority should have reduced uncertainty. Instead, it introduced a new layer of it. The Court narrowed the use of one statute for imposing broad tariffs. The response from the administration was immediate. Tariffs would continue under other authorities, and tariffs already collected would ... [continued] The post From Courtroom to Capital Markets: Why US Tariff Instability Matters appeared first on CleanTechnica .
 
-4. Bill calls for California data centers to shoulder more energy costs — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/02/20/mcnerney-introduces-bill-to-offset-data-center-power-costs-ee-00787192
-State Sen. Jerry McNerney’s bill would create a surcharge on large data centers in the state.
-
-5. Oil prices rise on fears of US-Iran conflict — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/02/20/oil-prices-rise-on-fears-of-us-iran-conflict-00789144
-The threat of U.S. military action is causing investors to weigh the effects of possible oil supply disruptions.
+5. Southern California Edison expects ‘muted’ 2026 growth as wildfire costs roll in — Utility Dive
+Link: https://www.utilitydive.com/news/southern-california-edison-eix-wildfire-costs-earnings/812656/
+Chief Financial Officer Maria Rigatti told investors the company sees mounting wildfire costs as a one-time setback that won't impact future growth.
 
