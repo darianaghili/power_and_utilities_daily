@@ -1,24 +1,24 @@
-Power, Utilities & Infrastructure — Daily Brief (2026-02-21)
+Power, Utilities & Infrastructure — Daily Brief (2026-02-22)
 
 This is an automated, AI-generated audio briefing. Sources and links are in the show notes.
 
-1. DOE ‘emergency’ power plant orders help grid reliability: NERC official — Utility Dive
-Link: https://www.utilitydive.com/news/doe-emergency-power-plant-orders-grid-reliability-nerc-ferc/812660/
-However, the Midcontinent Independent System Operator's reliability remains at &ldquo;high risk,&rdquo; NERC&rsquo;s John Moura said, and it's unclear whether its fast-track interconnection process will help.
+1. Invenergy Inks Supply Deal for Three New Natural Gas-Fired Power Plants in Arizona — POWER Magazine
+Link: https://www.powermag.com/invenergy-inks-supply-deal-for-three-new-natural-gas-fired-power-plants-in-arizona/
+Invenergy, which calls itself North America’s largest privately held independent power producer and energy infrastructure innovator, said it has an agreement with a pipeline operator regarding infrastructure associated with development of as many as three new natural gas-fired power plants in Arizona. The post Invenergy Inks Supply Deal for Three New Natural Gas-Fired Power Plants in Arizona appeared first on POWER Magazine .
 
-2. Heavy industry competes with AI for grid access — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/02/20/heavy-industry-competes-with-ai-for-grid-access-00781695
-The sale of a Kentucky aluminum smelter to a data center shows the race for cheap power.
+2. Tesla Sales Declined 11.4% in California in 2025 — CleanTechnica
+Link: https://cleantechnica.com/2026/02/21/tesla-sales-declined-11-4-in-california-in-2025/
+In the second half of 2024, as it became clear Tesla was going to see a year-over-year sales decline, CEO Elon Musk maintained a higher sales target for 2024 than the company ended up hitting, and also indicated Tesla should see a significant increase in sales in 2025. Musk originally ... [continued] The post Tesla Sales Declined 11.4% in California in 2025 appeared first on CleanTechnica .
 
-3. FERC chair urges mid-Atlantic grid to act on rising costs — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/02/20/ferc-chair-urges-mid-atlantic-grid-to-act-on-rising-costs-ee-00789087
-PJM Interconnection faces pressure from the Trump administration and governors across its 13-state region to restructure the power market.
+3. The US Is Still Bleeding Coal Jobs, Trump Or No Trump — CleanTechnica
+Link: https://cleantechnica.com/2026/02/21/the-us-is-still-bleeding-coal-jobs-trump-or-no-trump/
+The US is bleeding coal jobs again, despite the best efforts of US President Donald Trump to keep old coal power plants up and running. The post The US Is Still Bleeding Coal Jobs, Trump Or No Trump appeared first on CleanTechnica .
 
-4. From Courtroom to Capital Markets: Why US Tariff Instability Matters — CleanTechnica
-Link: https://cleantechnica.com/2026/02/20/from-courtroom-to-capital-markets-why-us-tariff-instability-matters/
-The Supreme Court’s decision limiting presidential tariff authority should have reduced uncertainty. Instead, it introduced a new layer of it. The Court narrowed the use of one statute for imposing broad tariffs. The response from the administration was immediate. Tariffs would continue under other authorities, and tariffs already collected would ... [continued] The post From Courtroom to Capital Markets: Why US Tariff Instability Matters appeared first on CleanTechnica .
+4. Hegseth’s Blacklists Target Academia & Cleantech, Not National Security Threats — CleanTechnica
+Link: https://cleantechnica.com/2026/02/21/hegseths-blacklists-target-academia-cleantech-not-national-security-threats/
+Last week, I started writing about blacklists from the US Military that were posted and retracted multiple times or leaked. As they did not stay official, it was a bit of a stop-start, and I was reluctant to finish the article. Like terrorism, these lists are likely intended to create ... [continued] The post Hegseth’s Blacklists Target Academia &#038; Cleantech, Not National Security Threats appeared first on CleanTechnica .
 
-5. Southern California Edison expects ‘muted’ 2026 growth as wildfire costs roll in — Utility Dive
-Link: https://www.utilitydive.com/news/southern-california-edison-eix-wildfire-costs-earnings/812656/
-Chief Financial Officer Maria Rigatti told investors the company sees mounting wildfire costs as a one-time setback that won't impact future growth.
+5. Peak Fuel Cell Bus Deliveries in the EU Occurred in 2025 — CleanTechnica
+Link: https://cleantechnica.com/2026/02/21/peak-fuel-cell-bus-deliveries-in-the-eu-occurred-in-2025/
+Transport &#38; Environment’s latest European city bus market report glossed in an article in CleanTechnica caught my attention for a reason that may not be obvious at first glance. Battery-electric buses now dominate new city bus registrations across the EU, and vastly ahead of schedule. That is the headline, and ... [continued] The post Peak Fuel Cell Bus Deliveries in the EU Occurred in 2025 appeared first on CleanTechnica .
 
