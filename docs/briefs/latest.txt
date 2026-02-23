@@ -1,24 +1,24 @@
-Power, Utilities & Infrastructure — Daily Brief (2026-02-22)
+Power, Utilities & Infrastructure — Daily Brief (2026-02-23)
 
 This is an automated, AI-generated audio briefing. Sources and links are in the show notes.
 
-1. Invenergy Inks Supply Deal for Three New Natural Gas-Fired Power Plants in Arizona — POWER Magazine
-Link: https://www.powermag.com/invenergy-inks-supply-deal-for-three-new-natural-gas-fired-power-plants-in-arizona/
-Invenergy, which calls itself North America’s largest privately held independent power producer and energy infrastructure innovator, said it has an agreement with a pipeline operator regarding infrastructure associated with development of as many as three new natural gas-fired power plants in Arizona. The post Invenergy Inks Supply Deal for Three New Natural Gas-Fired Power Plants in Arizona appeared first on POWER Magazine .
+1. US grid battery installations surged to all-time record in 2025 — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/02/23/us-grid-batteries-surge-30-to-all-time-record-00791809
+State policies and a data center boom helped spur growth, despite permitting challenges and new federal rules to block Chinese imports.
 
-2. Tesla Sales Declined 11.4% in California in 2025 — CleanTechnica
-Link: https://cleantechnica.com/2026/02/21/tesla-sales-declined-11-4-in-california-in-2025/
-In the second half of 2024, as it became clear Tesla was going to see a year-over-year sales decline, CEO Elon Musk maintained a higher sales target for 2024 than the company ended up hitting, and also indicated Tesla should see a significant increase in sales in 2025. Musk originally ... [continued] The post Tesla Sales Declined 11.4% in California in 2025 appeared first on CleanTechnica .
+2. Supreme Court to hear back-to-back energy cases this week — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/02/23/supreme-court-to-hear-back-to-back-energy-cases-this-week-00791392
+First up is Exxon's bid to recover assets seized during the Cuban Revolution. Then the justices will take up a dispute over a Michigan pipeline.
 
-3. The US Is Still Bleeding Coal Jobs, Trump Or No Trump — CleanTechnica
-Link: https://cleantechnica.com/2026/02/21/the-us-is-still-bleeding-coal-jobs-trump-or-no-trump/
-The US is bleeding coal jobs again, despite the best efforts of US President Donald Trump to keep old coal power plants up and running. The post The US Is Still Bleeding Coal Jobs, Trump Or No Trump appeared first on CleanTechnica .
+3. ‘Just a couple of guys’: How a little-known company could score big from a Trump trade deal — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/02/23/energy-company-trump-japan-trade-deal-ee-00791916
+Entra1 Energy is largely unknown in the nuclear industry and has never completed a nuclear project, but it's being considered with NuScale for a $25 billion contract to build U.S. projects with Japanese funding.
 
-4. Hegseth’s Blacklists Target Academia & Cleantech, Not National Security Threats — CleanTechnica
-Link: https://cleantechnica.com/2026/02/21/hegseths-blacklists-target-academia-cleantech-not-national-security-threats/
-Last week, I started writing about blacklists from the US Military that were posted and retracted multiple times or leaked. As they did not stay official, it was a bit of a stop-start, and I was reluctant to finish the article. Like terrorism, these lists are likely intended to create ... [continued] The post Hegseth’s Blacklists Target Academia &#038; Cleantech, Not National Security Threats appeared first on CleanTechnica .
+4. Interior barraged with lawsuits over Alaska oil plans — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/02/23/interior-barraged-with-lawsuits-over-alaska-oil-plans-00791294
+The department faces pushback with an oil and gas lease sale set for next month in the National Petroleum Reserve-Alaska.
 
-5. Peak Fuel Cell Bus Deliveries in the EU Occurred in 2025 — CleanTechnica
-Link: https://cleantechnica.com/2026/02/21/peak-fuel-cell-bus-deliveries-in-the-eu-occurred-in-2025/
-Transport &#38; Environment’s latest European city bus market report glossed in an article in CleanTechnica caught my attention for a reason that may not be obvious at first glance. Battery-electric buses now dominate new city bus registrations across the EU, and vastly ahead of schedule. That is the headline, and ... [continued] The post Peak Fuel Cell Bus Deliveries in the EU Occurred in 2025 appeared first on CleanTechnica .
+5. Can a big battery help Boston save billions on the power grid? Maybe. — Canary Media
+Link: https://www.canarymedia.com/articles/batteries/can-big-battery-help-boston-power-grid
+The U.S. desperately needs to make more room on its electricity grid. But for years, the country has struggled to build new power lines at a reasonable pace, and despite fast-rising electricity demand, there’s no sign of that changing in the near term. A project taking shape near Boston could help make the case for…
 
