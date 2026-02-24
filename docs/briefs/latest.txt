@@ -1,24 +1,24 @@
-Power, Utilities & Infrastructure — Daily Brief (2026-02-23)
+Power, Utilities & Infrastructure — Daily Brief (2026-02-24)
 
 This is an automated, AI-generated audio briefing. Sources and links are in the show notes.
 
-1. US grid battery installations surged to all-time record in 2025 — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/02/23/us-grid-batteries-surge-30-to-all-time-record-00791809
-State policies and a data center boom helped spur growth, despite permitting challenges and new federal rules to block Chinese imports.
+1. Green groups challenge Virginia permit for Mountain Valley pipeline extension — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/02/24/green-groups-challenge-virginia-permit-for-mountain-valley-pipeline-extension-00793929
+The lawsuit is the latest headache for the 31-mile expansion of the Southeast gas pipeline.
 
-2. Supreme Court to hear back-to-back energy cases this week — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/02/23/supreme-court-to-hear-back-to-back-energy-cases-this-week-00791392
-First up is Exxon's bid to recover assets seized during the Cuban Revolution. Then the justices will take up a dispute over a Michigan pipeline.
+2. Amazon plans $12B Louisiana data center complex — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/02/24/amazon-plans-12b-data-center-complex-in-louisiana-00794024
+The AI computing hub will use power from Southwestern Electric Power, a unit of Ohio-based American Electric Power.
 
-3. ‘Just a couple of guys’: How a little-known company could score big from a Trump trade deal — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/02/23/energy-company-trump-japan-trade-deal-ee-00791916
-Entra1 Energy is largely unknown in the nuclear industry and has never completed a nuclear project, but it's being considered with NuScale for a $25 billion contract to build U.S. projects with Japanese funding.
+3. New York pushes FERC to dismiss Constitution pipeline petition — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/02/24/new-york-pushes-ferc-to-dismiss-constitution-pipeline-petition-00793739
+State regulators say the federal commission should not reissue a certificate that was granted before the developer shelved the project.
 
-4. Interior barraged with lawsuits over Alaska oil plans — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/02/23/interior-barraged-with-lawsuits-over-alaska-oil-plans-00791294
-The department faces pushback with an oil and gas lease sale set for next month in the National Petroleum Reserve-Alaska.
+4. Xcel, Texas reach pole inspection deal in wildfire lawsuit — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/02/24/xcel-texas-reach-pole-inspection-deal-in-wildfire-lawsuit-ee-00793108
+The state is still seeking economic damages and civil penalties from the utility over the Smokehouse Creek Fire.
 
-5. Can a big battery help Boston save billions on the power grid? Maybe. — Canary Media
-Link: https://www.canarymedia.com/articles/batteries/can-big-battery-help-boston-power-grid
-The U.S. desperately needs to make more room on its electricity grid. But for years, the country has struggled to build new power lines at a reasonable pace, and despite fast-rising electricity demand, there’s no sign of that changing in the near term. A project taking shape near Boston could help make the case for…
+5. US military airlifts small reactor in push to quickly deploy nuclear power — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/02/24/us-military-airlifts-small-reactor-in-push-to-quickly-deploy-nuclear-power-00793458
+The nearly 700-mile flight from California to Utah — which transported a 5-megawatt microreactor without fuel — highlights the Trump administration's drive to promote nuclear energy.
 
