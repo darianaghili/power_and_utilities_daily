@@ -1,24 +1,24 @@
-Power, Utilities & Infrastructure — Daily Brief (2026-02-25)
+Power, Utilities & Infrastructure — Daily Brief (2026-02-26)
 
 This is an automated, AI-generated audio briefing. Sources and links are in the show notes.
 
-1. Pipeline clash escalates as Enbridge starts Line 5 work — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/02/25/pipeline-clash-escalates-as-enbridge-starts-line-5-work-00796695
-The company said it can reroute an oil pipeline in Wisconsin after receiving a federal permit.
+1. FERC brushes off transmission study mandated by Congress — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/02/26/ferc-brushes-off-mandated-transmission-study-00799832
+Congress ordered up a report that could be the basis for legislation to expand the high-voltage power grid.
 
-2. Utah requests NRC authority to regulate nuclear power — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/02/25/utah-requests-authority-to-regulate-nuclear-power-00795638
-The Nuclear Regulatory Commission must decide whether under federal law the state can oversee small reactors and nuclear processing.
+2. Texas approves data center behemoth’s massive gas power play — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/02/26/texas-approves-energy-and-ai-complexs-massive-gas-power-play-00797981
+Fermi’s Project Matador would be larger than any U.S. fossil fuel plant, with the capacity for powering 1.2 million homes on the main Texas grid.
 
-3. Google, Xcel pitch large-scale renewables for data center — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/02/25/google-xcel-pitch-large-scale-renewables-for-data-center-00795911
-Google and Form Energy also agreed to install the world's largest long-duration battery to help power a large data center in Minnesota.
+3. Data centers’ share of US electricity seen doubling by 2030 — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/02/26/data-centers-share-of-us-electricity-seen-doubling-by-2030-00798875
+The Electric Power Research Institute’s electricity-demand estimates are about 60 percent higher than the group anticipated two years ago.
 
-4. Legal brawls over Michigan oil pipeline arrive at Supreme Court — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/02/25/legal-brawls-over-michigan-oil-pipeline-arrive-at-supreme-court-00796186
-The justices heard arguments Tuesday on whether a lawsuit over Line 5 belongs in federal court. They haven't decided whether to grant a second petition related to the project.
+4. FERC approves construction of Southeast gas pipeline — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/02/26/ferc-approves-construction-of-southeast-gas-pipeline-00798705
+The commission told Williams Cos. that it can start building a project that would run through parts of Virginia and North Carolina.
 
-5. Calif. Senate bill aims to hasten San Francisco purchase of PG&E grid — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/02/25/wiener-bill-would-hasten-san-francisco-purchase-of-pg-e-grid-ee-00794240
-The measure would make it easier for California cities to take over private power grids.
+5. California regional energy market to expand as new companies join — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/02/26/california-regional-energy-market-will-expand-into-south-dakota-as-new-companies-join-ee-00798654
+With the addition of South Dakota, the Western Energy Imbalance Market will include energy producers and grid operators in 12 states.
 
