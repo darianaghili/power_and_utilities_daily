@@ -1,24 +1,24 @@
-Power, Utilities & Infrastructure — Daily Brief (2026-02-27)
+Power, Utilities & Infrastructure — Daily Brief (2026-02-28)
 
 This is an automated, AI-generated audio briefing. Sources and links are in the show notes.
 
-1. Wright touts LNG surge as oil and gas employment falters — E&E Energywire (Politico)
+1. California orders utilities to add 6 GW of non-fossil capacity by 2032 — Utility Dive
+Link: https://www.utilitydive.com/news/cpuc-california-lses-procure-6-gw-2032/813357/
+&ldquo;Eligible new resources must be either zero-emitting or otherwise eligible under the [renewables portfolio standard] program,&rdquo; according to the California Public Utility&nbsp;Commission order.
+
+2. Wright touts LNG surge as oil and gas employment falters — E&E Energywire (Politico)
 Link: https://subscriber.politicopro.com/article/eenews/2026/02/27/wright-touts-lng-surge-as-oil-and-gas-employment-falters-00801239
 In a visit to South Texas, the Energy secretary praised LNG-export workers while acknowledging bumps in the industry's outlook.
 
-2. Investigate oil pipeline damage to unblock Ukraine funds, Orbán tells EU — E&E Energywire (Politico)
+3. Investigate oil pipeline damage to unblock Ukraine funds, Orbán tells EU — E&E Energywire (Politico)
 Link: https://subscriber.politicopro.com/article/eenews/2026/02/27/investigate-oil-pipeline-damage-to-unblock-ukraine-funds-orban-tells-eu-00802118
 Hungary and Slovakia are pushing for a fact-finding mission to determine whether the Druzhba pipeline can be repaired, correspondence shows.
 
-3. Oil patch veterans battle in Texas Republican primary — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/02/27/oil-patch-veterans-battle-in-texas-commission-primary-00795585
-A seat on the powerful Railroad Commission is at stake, with Republican challengers criticizing the state's approach to oil and gas regulation.
+4. The System Case Against Hydrogen for Grid Storage — CleanTechnica
+Link: https://cleantechnica.com/2026/02/27/the-system-case-against-hydrogen-for-grid-storage/
+Every time hydrogen is critiqued as an energy carrier for the power sector, the same question reappears. If not hydrogen, where does long duration storage come from? I received it related to my recent critique of Germany&#8217;s attempt to force the EU to double green hydrogen and synthetic fuel quotes ... [continued] The post The System Case Against Hydrogen for Grid Storage appeared first on CleanTechnica .
 
-4. Texas reaches $30M settlement in coal suit against Vanguard — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/02/27/texas-reaches-30m-settlement-in-coal-suit-against-vanguard-00802077
-The deal ends Vanguard's involvement in a case alleging three asset managers sought to manipulate markets to reduce coal production.
-
-5. ‘Affordability’ drives Massachusetts Dems to target energy efficiency — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/02/27/affordability-drives-massachusetts-dems-to-target-energy-efficiency-ew-00802842
-Mass Save would see a billion-dollar cut under legislation advanced Thursday. Critics called it counterproductive.
+5. Massachusetts energy bill would make big cuts to energy efficiency — Canary Media
+Link: https://www.canarymedia.com/articles/energy-efficiency/massachusetts-energy-bill-big-cuts-energy-efficiency
+An energy-affordability bill approved yesterday by the Massachusetts House of Representatives could speed solar permitting, strengthen protections for many electricity consumers, and boost EV charging infrastructure. It could also pull the rug out from underneath the state’s nation-leading energy-efficiency…
 
