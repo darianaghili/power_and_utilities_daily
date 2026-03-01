@@ -1,24 +1,24 @@
-Power, Utilities & Infrastructure — Daily Brief (2026-02-28)
+Power, Utilities & Infrastructure — Daily Brief (2026-03-01)
 
 This is an automated, AI-generated audio briefing. Sources and links are in the show notes.
 
-1. California orders utilities to add 6 GW of non-fossil capacity by 2032 — Utility Dive
-Link: https://www.utilitydive.com/news/cpuc-california-lses-procure-6-gw-2032/813357/
-&ldquo;Eligible new resources must be either zero-emitting or otherwise eligible under the [renewables portfolio standard] program,&rdquo; according to the California Public Utility&nbsp;Commission order.
+1. Another One Bites the Dust: Aberdeen’s Hydrogen Bus Fleet Ends In Failure — CleanTechnica
+Link: https://cleantechnica.com/2026/03/01/another-one-bites-the-dust-aberdeens-hydrogen-bus-fleet-ends-in-failure/
+Aberdeen’s decision to retire and try to sell its 25 hydrogen double decker buses closes a chapter that began with confident claims about global leadership in clean transport. The fleet was promoted as the world’s first hydrogen double deck operation and positioned as a foundation for a broader hydrogen economy ... [continued] The post Another One Bites the Dust: Aberdeen’s Hydrogen Bus Fleet Ends In Failure appeared first on CleanTechnica .
 
-2. Wright touts LNG surge as oil and gas employment falters — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/02/27/wright-touts-lng-surge-as-oil-and-gas-employment-falters-00801239
-In a visit to South Texas, the Energy secretary praised LNG-export workers while acknowledging bumps in the industry's outlook.
+2. Battery Swapping Expands In New York City — CleanTechnica
+Link: https://cleantechnica.com/2026/02/28/battery-swapping-expands-in-new-york-city/
+Public battery swapping and charging stations provide e-bike workers with a convenient, certified, fire-safe alternative to recharging at home. The post Battery Swapping Expands In New York City appeared first on CleanTechnica .
 
-3. Investigate oil pipeline damage to unblock Ukraine funds, Orbán tells EU — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/02/27/investigate-oil-pipeline-damage-to-unblock-ukraine-funds-orban-tells-eu-00802118
-Hungary and Slovakia are pushing for a fact-finding mission to determine whether the Druzhba pipeline can be repaired, correspondence shows.
+3. Blackstone Brings 694-MW Gas-Fired Plant Online in Louisiana — POWER Magazine
+Link: https://www.powermag.com/blackstone-brings-694-mw-gas-fired-plant-online-in-louisiana/
+A major U.S. energy investment group announced the start of commercial operations for a 694-MW combined-cycle natural gas-fired power plant in Louisiana. Blackstone said the Magnolia Power Generating Station is supported by private equity funds managed by Blackstone Energy Transition Partners. The post Blackstone Brings 694-MW Gas-Fired Plant Online in Louisiana appeared first on POWER Magazine .
 
-4. The System Case Against Hydrogen for Grid Storage — CleanTechnica
-Link: https://cleantechnica.com/2026/02/27/the-system-case-against-hydrogen-for-grid-storage/
-Every time hydrogen is critiqued as an energy carrier for the power sector, the same question reappears. If not hydrogen, where does long duration storage come from? I received it related to my recent critique of Germany&#8217;s attempt to force the EU to double green hydrogen and synthetic fuel quotes ... [continued] The post The System Case Against Hydrogen for Grid Storage appeared first on CleanTechnica .
+4. How The Olympics Bought Attention To A Pattern Of Sportswashing — CleanTechnica
+Link: https://cleantechnica.com/2026/02/28/how-the-olympics-bought-attention-to-a-pattern-of-sportswashing/
+We find joy in the dark winter months by enjoying our favorite sports teams. In the US, National Hockey League and National Basketball Association games are in mid-season. Major League Baseball spring training has just started. March Madness will be upon us soon, where we will root for up-and-coming college ... [continued] The post How The Olympics Bought Attention To A Pattern Of Sportswashing appeared first on CleanTechnica .
 
-5. Massachusetts energy bill would make big cuts to energy efficiency — Canary Media
-Link: https://www.canarymedia.com/articles/energy-efficiency/massachusetts-energy-bill-big-cuts-energy-efficiency
-An energy-affordability bill approved yesterday by the Massachusetts House of Representatives could speed solar permitting, strengthen protections for many electricity consumers, and boost EV charging infrastructure. It could also pull the rug out from underneath the state’s nation-leading energy-efficiency…
+5. The Return Of The Esmeralda 7 Solar Power Project — CleanTechnica
+Link: https://cleantechnica.com/2026/02/28/the-return-of-the-esmeralda-7-solar-power-project/
+The Esmeralda 7 solar power project could yet see the light of day, depending on who wins the race for Nevada Governor this fall. The post The Return Of The Esmeralda 7 Solar Power Project appeared first on CleanTechnica .
 
