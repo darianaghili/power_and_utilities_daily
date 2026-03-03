@@ -1,24 +1,24 @@
-Power, Utilities & Infrastructure — Daily Brief (2026-03-02)
+Power, Utilities & Infrastructure — Daily Brief (2026-03-03)
 
 This is an automated, AI-generated audio briefing. Sources and links are in the show notes.
 
-1. AI: Does not compute — Canary Media
-Link: https://www.canarymedia.com/articles/data-centers/ai-does-not-compute
-Artificial intelligence’s bubblitude fizzes with circular transactions, risk concealment, and exotic real-estate debt finance. In a frenzy to build AI data centers, Big Tech recently borrowed and bonded more money in 11 weeks than in the previous three years combined. More than a thousand new data centers are under…
+1. Duke points to Virginia, Georgia to defend proposed data center rates — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/03/03/duke-points-to-virginia-georgia-to-defend-proposed-data-center-rates-ee-00807968
+Public Counsel Walt Trierweiler says Duke Energy's proposed electricity rates for data centers could leave customers paying higher bills.
 
-2. How America’s Power Regions Chose Their Futures and How That Has Played Out — POWER Magazine
-Link: https://www.powermag.com/how-americas-power-regions-chose-their-futures-and-how-that-has-played-out/
-On April 24, 1996, the Federal Energy Regulatory Commission (FERC) issued Order 888, requiring all public utilities owning or operating interstate transmission facilities to file open-access The post How America&#8217;s Power Regions Chose Their Futures and How That Has Played Out appeared first on POWER Magazine .
+2. Why California is reconsidering nuclear energy after 50-year ban — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/03/03/why-california-is-reconsidering-nuclear-energy-after-50-year-ban-00806921
+“With California having energy goals such as having 90% clean electricity by 2035, and 100% clean energy by 2045, nuclear energy is a source that must be considered,” Democratic state Assemblymember Lisa Calderon said.
 
-3. POWER DIGEST [March 2026] — POWER Magazine
-Link: https://www.powermag.com/power-digest-march-2026/
-U.S.-based Energea in mid-January announced its acquisition of the YO Residence Solar Project, marking a significant milestone as the company’s first microgrid investment and entry into South Africa’s renewable energy market. The post POWER DIGEST [March 2026] appeared first on POWER Magazine .
+3. Here’s why Trump isn’t looking at the Strategic Petroleum Reserve — yet — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/03/03/heres-why-trump-isnt-looking-at-the-strategic-petroleum-reserve-yet-ee-00807592
+Despite a spike in oil prices since the U.S. attack on Iran, the Trump administration is not yet considering tapping its government oil stockpile.
 
-4. Beyond Reactors: The Full Fuel Cycle Investment Needed for a Nuclear Future — POWER Magazine
-Link: https://www.powermag.com/beyond-reactors-the-full-fuel-cycle-investment-needed-for-a-nuclear-future/
-A resurgent nuclear industry cannot succeed unless the U.S. invests in the entire nuclear fuel cycle—from uranium mining to long‑term waste storage. Without strengthening this industrial backbone, nuclear power’s potential may remain more aspiration than reality. The post Beyond Reactors: The Full Fuel Cycle Investment Needed for a Nuclear Future appeared first on POWER Magazine .
+4. Trump hates renewables. The Iran war may help them. — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/03/03/trump-hates-renewables-the-iran-war-may-help-them-00808008
+Higher gas prices in Europe and the U.S. could create economic and political incentives for solar, wind, batteries and other clean technology.
 
-5. Advancements in Ammonia-to-Hydrogen Technology Support Decarbonization — POWER Magazine
-Link: https://www.powermag.com/advancements-in-ammonia-to-hydrogen-technology-support-decarbonization/
-The transition of ammonia to hydrogen has become important as the power sector seeks to decarbonize its operations. Industrial-scale ammonia crackers are reaching commercial maturity in many areas, notably in Europe and Asia, and also in the U.S. The post Advancements in Ammonia-to-Hydrogen Technology Support Decarbonization appeared first on POWER Magazine .
+5. Iran conflict inflames California’s gasoline-price blame game — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/03/03/iran-conflict-inflames-californias-gasoline-price-blame-game-00808086
+The conflict in Iran is sending oil prices soaring — and inflaming homegrown fights over fuel policy.
 
