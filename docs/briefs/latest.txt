@@ -1,24 +1,24 @@
-Power, Utilities & Infrastructure — Daily Brief (2026-03-03)
+Power, Utilities & Infrastructure — Daily Brief (2026-03-04)
 
 This is an automated, AI-generated audio briefing. Sources and links are in the show notes.
 
-1. Duke points to Virginia, Georgia to defend proposed data center rates — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/03/03/duke-points-to-virginia-georgia-to-defend-proposed-data-center-rates-ee-00807968
-Public Counsel Walt Trierweiler says Duke Energy's proposed electricity rates for data centers could leave customers paying higher bills.
+1. EQT, GIP Move to Take AES Private in $33B Bet on Data-Center Power Demand — POWER Magazine
+Link: https://www.powermag.com/eqt-gip-move-to-take-aes-private-in-33b-bet-on-data-center-power-demand/
+A private equity–led consortium has agreed to take AES Corp. private in a $33.4 billion deal that—if completed—will shift one of the largest U.S.-listed power companies and a major data‑center renewables supplier into private ownership. AES’s board says the move, which comes as load growth and capital needs are rising across the sector, is designed [&#8230;] The post EQT, GIP Move to Take AES Private in $33B Bet on Data-Center Power Demand appeared first on POWER Magazine .
 
-2. Why California is reconsidering nuclear energy after 50-year ban — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/03/03/why-california-is-reconsidering-nuclear-energy-after-50-year-ban-00806921
-“With California having energy goals such as having 90% clean electricity by 2035, and 100% clean energy by 2045, nuclear energy is a source that must be considered,” Democratic state Assemblymember Lisa Calderon said.
+2. Virginia to utilities: Do more with the existing power grid — Canary Media
+Link: https://www.canarymedia.com/articles/transmission/virginia-to-utilities-do-more-existing-power-grid
+An upheaval is underway in the nation’s electricity sector, and Virginia is ground zero. As the data center capital of the world, the state faces surging demand, ballooning utility bills, and a bottlenecked grid — all challenges that policymakers are navigating while maintaining a legally mandated course toward…
 
-3. Here’s why Trump isn’t looking at the Strategic Petroleum Reserve — yet — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/03/03/heres-why-trump-isnt-looking-at-the-strategic-petroleum-reserve-yet-ee-00807592
-Despite a spike in oil prices since the U.S. attack on Iran, the Trump administration is not yet considering tapping its government oil stockpile.
+3. Dropping a line: ‘Transformative’ $2.5B Puerto Rico power project includes new HVDC submarine interconnection cable — Renewable Energy World
+Link: https://www.renewableenergyworld.com/power-grid/transmission/dropping-a-line-transformative-2-5b-puerto-rico-power-project-includes-new-hvdc-submarine-interconnection-cable/
+Caribbean Transmission Development Company has received a U.S. Department of Energy permit for Project Hostos, a $2.5 billion power project in Puerto Rico.
 
-4. Trump hates renewables. The Iran war may help them. — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/03/03/trump-hates-renewables-the-iran-war-may-help-them-00808008
-Higher gas prices in Europe and the U.S. could create economic and political incentives for solar, wind, batteries and other clean technology.
+4. Reimagining the U.S. Grid: Why VPPs Could Be the Bridge to a More Reliable Future — POWER Magazine
+Link: https://www.powermag.com/reimagining-the-u-s-grid-why-vpps-could-be-the-bridge-to-a-more-reliable-future/
+America’s power grid is aging into obsolescence. Much of the infrastructure that keeps the lights on today was constructed in the 1960s and 1970s, long before the digital and electrified demands of the 21st century took shape. The consequences are increasingly visible: mounting reliability issues, rising costs, and a growing need to modernize a system never designed for the challenges of climate volatility or the surge in load from data centers and electric vehicles. The post Reimagining the U.S. Grid: Why VPPs Could Be the Bridge to a More Reliable Future appeared first on POWER Magazine .
 
-5. Iran conflict inflames California’s gasoline-price blame game — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/03/03/iran-conflict-inflames-californias-gasoline-price-blame-game-00808086
-The conflict in Iran is sending oil prices soaring — and inflaming homegrown fights over fuel policy.
+5. Google Data Center in Minnesota Would Be Powered by Wind, Energy Storage — POWER Magazine
+Link: https://www.powermag.com/google-data-center-in-minnesota-would-be-powered-by-wind-energy-storage/
+Minnesota Power has signed an electric service agreement (ESA) with Google for the energy needed to power a 700-MW data center project in the state. The companies on March 3 said the installation in Hermantown would operate under an existing regulated rate structure. The post Google Data Center in Minnesota Would Be Powered by Wind, Energy Storage appeared first on POWER Magazine .
 
