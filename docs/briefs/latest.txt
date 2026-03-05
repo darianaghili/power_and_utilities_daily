@@ -1,24 +1,24 @@
-Power, Utilities & Infrastructure — Daily Brief (2026-03-04)
+Power, Utilities & Infrastructure — Daily Brief (2026-03-05)
 
 This is an automated, AI-generated audio briefing. Sources and links are in the show notes.
 
-1. EQT, GIP Move to Take AES Private in $33B Bet on Data-Center Power Demand — POWER Magazine
-Link: https://www.powermag.com/eqt-gip-move-to-take-aes-private-in-33b-bet-on-data-center-power-demand/
-A private equity–led consortium has agreed to take AES Corp. private in a $33.4 billion deal that—if completed—will shift one of the largest U.S.-listed power companies and a major data‑center renewables supplier into private ownership. AES’s board says the move, which comes as load growth and capital needs are rising across the sector, is designed [&#8230;] The post EQT, GIP Move to Take AES Private in $33B Bet on Data-Center Power Demand appeared first on POWER Magazine .
+1. An oil company quietly dug a surprisingly deep geothermal well — Canary Media
+Link: https://www.canarymedia.com/articles/geothermal/oil-company-dug-four-mile-deep-well
+This story was originally published by Colorado Public Radio . Sign up for CPR’s weekly climate newsletter . Last spring, Occidental Petroleum, an oil and gas company better known as Oxy, began drilling a massive hole in the shadow of a natural gas processing plant south of Greeley. Drilling rigs are a common…
 
-2. Virginia to utilities: Do more with the existing power grid — Canary Media
-Link: https://www.canarymedia.com/articles/transmission/virginia-to-utilities-do-more-existing-power-grid
-An upheaval is underway in the nation’s electricity sector, and Virginia is ground zero. As the data center capital of the world, the state faces surging demand, ballooning utility bills, and a bottlenecked grid — all challenges that policymakers are navigating while maintaining a legally mandated course toward…
+2. Oregon pushes new homes to install heat pumps over ACs — Canary Media
+Link: https://www.canarymedia.com/articles/heat-pumps/oregon-pushes-new-homes-install-heat-pumps
+Oregon has made heat pumps the default appliance for cooling new homes. Last month, the state Building Code Division’s Residential and Manufactured Structures Board voted 7–1 to adopt energy-efficiency standards that encourage builders equipping new homes with air conditioning to use dual-purpose heat pumps instead…
 
-3. Dropping a line: ‘Transformative’ $2.5B Puerto Rico power project includes new HVDC submarine interconnection cable — Renewable Energy World
-Link: https://www.renewableenergyworld.com/power-grid/transmission/dropping-a-line-transformative-2-5b-puerto-rico-power-project-includes-new-hvdc-submarine-interconnection-cable/
-Caribbean Transmission Development Company has received a U.S. Department of Energy permit for Project Hostos, a $2.5 billion power project in Puerto Rico.
+3. How Vermont’s pioneering clean heat plan fell apart — Canary Media
+Link: https://www.canarymedia.com/articles/clean-energy/how-vermont-clean-heat-plan-fell-apart
+Nearly three years ago, Vermont passed a landmark law that aimed to cut greenhouse gas emissions by shifting residents away from using fossil fuels to heat their homes and businesses. Last month, that plan officially died before ever being put into action — and the path toward cleaner heating in the state is murkier…
 
-4. Reimagining the U.S. Grid: Why VPPs Could Be the Bridge to a More Reliable Future — POWER Magazine
-Link: https://www.powermag.com/reimagining-the-u-s-grid-why-vpps-could-be-the-bridge-to-a-more-reliable-future/
-America’s power grid is aging into obsolescence. Much of the infrastructure that keeps the lights on today was constructed in the 1960s and 1970s, long before the digital and electrified demands of the 21st century took shape. The consequences are increasingly visible: mounting reliability issues, rising costs, and a growing need to modernize a system never designed for the challenges of climate volatility or the surge in load from data centers and electric vehicles. The post Reimagining the U.S. Grid: Why VPPs Could Be the Bridge to a More Reliable Future appeared first on POWER Magazine .
+4. Coal plant DOE ordered to stay online unlikely to run given ‘flush’ power supplies: CEO — Utility Dive
+Link: https://www.utilitydive.com/news/washington-earthjustice-sue-doe-centralia-emergency-order-transalta/813754/
+The Department of Energy claimed &ldquo;emergency&rdquo; conditions&nbsp;in the Pacific Northwest required&nbsp;TransAlta&nbsp;to continue running Washington&rsquo;s last coal plant past its planned retirement. The company plans to convert it to run on gas.
 
-5. Google Data Center in Minnesota Would Be Powered by Wind, Energy Storage — POWER Magazine
-Link: https://www.powermag.com/google-data-center-in-minnesota-would-be-powered-by-wind-energy-storage/
-Minnesota Power has signed an electric service agreement (ESA) with Google for the energy needed to power a 700-MW data center project in the state. The companies on March 3 said the installation in Hermantown would operate under an existing regulated rate structure. The post Google Data Center in Minnesota Would Be Powered by Wind, Energy Storage appeared first on POWER Magazine .
+5. Local control with reasonable county ordinances can support renewable energy deployment — Utility Dive
+Link: https://www.utilitydive.com/news/local-control-with-reasonable-county-ordinances-can-support-renewable-energ/810749/
+The right regulations and permitting processes can help facilitate renewable resources facing county-level opposition, writes Claire Burch from the Oklahoma Renewable Energy Council.
 
