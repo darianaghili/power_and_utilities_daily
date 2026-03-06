@@ -1,24 +1,24 @@
-Power, Utilities & Infrastructure — Daily Brief (2026-03-05)
+Power, Utilities & Infrastructure — Daily Brief (2026-03-06)
 
 This is an automated, AI-generated audio briefing. Sources and links are in the show notes.
 
-1. An oil company quietly dug a surprisingly deep geothermal well — Canary Media
-Link: https://www.canarymedia.com/articles/geothermal/oil-company-dug-four-mile-deep-well
-This story was originally published by Colorado Public Radio . Sign up for CPR’s weekly climate newsletter . Last spring, Occidental Petroleum, an oil and gas company better known as Oxy, began drilling a massive hole in the shadow of a natural gas processing plant south of Greeley. Drilling rigs are a common…
+1. Trump’s AI deal is missing one thing: Detail — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/03/06/trumps-ai-deal-is-missing-one-thing-detail-00816034
+The Eastern grid PJM Interconnection offers the starkest example of the type of transmission upgrades that might not be included in the "ratepayer protection pledge."
 
-2. Oregon pushes new homes to install heat pumps over ACs — Canary Media
-Link: https://www.canarymedia.com/articles/heat-pumps/oregon-pushes-new-homes-install-heat-pumps
-Oregon has made heat pumps the default appliance for cooling new homes. Last month, the state Building Code Division’s Residential and Manufactured Structures Board voted 7–1 to adopt energy-efficiency standards that encourage builders equipping new homes with air conditioning to use dual-purpose heat pumps instead…
+2. Texas grid plan sets up data center scramble — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/03/06/texas-grid-plan-sets-up-data-center-scramble-00815276
+The Electric Reliability Council of Texas is asking developers to pay largely nonrefundable fees if they want their projects studied soon.
 
-3. How Vermont’s pioneering clean heat plan fell apart — Canary Media
-Link: https://www.canarymedia.com/articles/clean-energy/how-vermont-clean-heat-plan-fell-apart
-Nearly three years ago, Vermont passed a landmark law that aimed to cut greenhouse gas emissions by shifting residents away from using fossil fuels to heat their homes and businesses. Last month, that plan officially died before ever being put into action — and the path toward cleaner heating in the state is murkier…
+3. Data centers could revive a shuttered Maryland coal plant — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/03/06/data-centers-could-revive-a-shuttered-maryland-coal-plant-ee-00815375
+A tech developer is trying to buy the Morgantown Generating Station to help power the AI boom.
 
-4. Coal plant DOE ordered to stay online unlikely to run given ‘flush’ power supplies: CEO — Utility Dive
-Link: https://www.utilitydive.com/news/washington-earthjustice-sue-doe-centralia-emergency-order-transalta/813754/
-The Department of Energy claimed &ldquo;emergency&rdquo; conditions&nbsp;in the Pacific Northwest required&nbsp;TransAlta&nbsp;to continue running Washington&rsquo;s last coal plant past its planned retirement. The company plans to convert it to run on gas.
+4. How Georgia supercharged sleepy utility board elections — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/03/06/how-georgia-supercharged-sleepy-utility-board-elections-00815277
+Democrats’ stunning victory for once-obscure regulatory positions could be a bellwether for midterm elections as skyrocketing electricity prices drive voters to the polls.
 
-5. Local control with reasonable county ordinances can support renewable energy deployment — Utility Dive
-Link: https://www.utilitydive.com/news/local-control-with-reasonable-county-ordinances-can-support-renewable-energ/810749/
-The right regulations and permitting processes can help facilitate renewable resources facing county-level opposition, writes Claire Burch from the Oklahoma Renewable Energy Council.
+5. ‘Nightmare scenarios’: Iran hits oil targets, testing Trump’s Teflon — E&E Energywire (Politico)
+Link: https://subscriber.politicopro.com/article/eenews/2026/03/06/nightmare-scenarios-iran-hits-oil-targets-testing-trumps-teflon-ee-00813312
+The regime's attacks on tankers and refineries could reverberate through the U.S. economy ahead of midterms.
 
