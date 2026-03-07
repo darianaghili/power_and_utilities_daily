@@ -1,4 +1,4 @@
-Power, Utilities & Infrastructure — Daily Brief (2026-03-06)
+Power, Utilities & Infrastructure — Daily Brief (2026-03-07)
 
 This is an automated, AI-generated audio briefing. Sources and links are in the show notes.
 
@@ -10,15 +10,15 @@ The Eastern grid PJM Interconnection offers the starkest example of the type of 
 Link: https://subscriber.politicopro.com/article/eenews/2026/03/06/texas-grid-plan-sets-up-data-center-scramble-00815276
 The Electric Reliability Council of Texas is asking developers to pay largely nonrefundable fees if they want their projects studied soon.
 
-3. Data centers could revive a shuttered Maryland coal plant — E&E Energywire (Politico)
+3. 2026 fire season off to ominous start after relatively mild 2025 — Utility Dive
+Link: https://www.utilitydive.com/news/2026-fire-season-off-to-ominous-start-after-relatively-mild-2025/813850/
+Total acres burned fell in 2025, but the Eaton and Palisades fires were hugely destructive and raise questions about the future of California's Wildfire Fund, one expert says.
+
+4. Data centers could revive a shuttered Maryland coal plant — E&E Energywire (Politico)
 Link: https://subscriber.politicopro.com/article/eenews/2026/03/06/data-centers-could-revive-a-shuttered-maryland-coal-plant-ee-00815375
 A tech developer is trying to buy the Morgantown Generating Station to help power the AI boom.
 
-4. How Georgia supercharged sleepy utility board elections — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/03/06/how-georgia-supercharged-sleepy-utility-board-elections-00815277
-Democrats’ stunning victory for once-obscure regulatory positions could be a bellwether for midterm elections as skyrocketing electricity prices drive voters to the polls.
-
-5. ‘Nightmare scenarios’: Iran hits oil targets, testing Trump’s Teflon — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/03/06/nightmare-scenarios-iran-hits-oil-targets-testing-trumps-teflon-ee-00813312
-The regime's attacks on tankers and refineries could reverberate through the U.S. economy ahead of midterms.
+5. Washington, California and Québec collaborate on linking carbon markets — Utility Dive
+Link: https://www.utilitydive.com/news/washington-california-quebec-collaborate-linking-carbon-markets-cca/813995/
+The three jurisdictions released a draft agreement this week that would add Washington to the largest carbon emissions trading market in North America.
 
