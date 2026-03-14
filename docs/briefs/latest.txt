@@ -1,24 +1,24 @@
-Power, Utilities & Infrastructure — Daily Brief (2026-03-13)
+Power, Utilities & Infrastructure — Daily Brief (2026-03-14)
 
 This is an automated, AI-generated audio briefing. Sources and links are in the show notes.
 
-1. Texas floats plan to ease data center approvals — E&E Energywire (Politico)
+1. DOE offers $1.9B for transmission reconductoring, advanced tech — Utility Dive
+Link: https://www.utilitydive.com/news/doe-makes-19b-available-for-transmission-reconductoring-advanced-tech/814666/
+The SPARK funding opportunity renames the Biden-era Grid Resilience and Innovation Partnerships program.
+
+2. ‘Clear warning signs’ as PJM wholesale power costs jump 54% in one year — Utility Dive
+Link: https://www.utilitydive.com/news/pjm-capacity-energy-market-reliability-monitoring-analytics/814647/
+Also, PJM&rsquo;s last two base capacity auctions show a growing shortfall compared to its reserve margin targets, according to the grid operator&rsquo;s market monitor. Prices will continue rising&nbsp;until&nbsp;large data center loads are addressed, it said.
+
+3. Texas floats plan to ease data center approvals — E&E Energywire (Politico)
 Link: https://subscriber.politicopro.com/article/eenews/2026/03/13/texas-floats-plan-to-ease-data-center-approvals-00825661
 A proposal to change the requirements for connecting large electricity users to the grid will be open for public comment until mid-April.
 
-2. Energy Department touts $1.9B for grid upgrades — E&E Energywire (Politico)
+4. IOUs work to interconnect 39 GW of data center, manufacturing load: EEI — Utility Dive
+Link: https://www.utilitydive.com/news/ious-edison-electric-interconnect-data-center-ferc/814688/
+Duke Energy, Northern Indiana Public Service and Xcel Energy are among the utilities with major data center projects in their service territories, the Edison Electric Institute told federal regulators.
+
+5. Energy Department touts $1.9B for grid upgrades — E&E Energywire (Politico)
 Link: https://subscriber.politicopro.com/article/eenews/2026/03/13/energy-department-touts-1-9b-for-grid-upgrades-ew-00826343
 Projects should demonstrate "measurable improvements" in grid capacity while also combining physical capacity gains, a notice said.
-
-3. Centrus and Palantir partner on US uranium enrichment — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/03/13/centrus-and-palantir-partner-on-us-uranium-enrichment-00826554
-The use of artificial intelligence to generate real-time data on nuclear centrifuges aims to speed up fuel development for advanced reactors.
-
-4. Electricity costs in PJM climbed 56% in 2025 — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/03/13/electricity-costs-in-pjm-climbed-56-in-2025-00827184
-Prices will keep rising if PJM officials and mid-Atlantic leaders fail to address power supply problems, says the independent market monitor.
-
-5. Is strife in the strait good news for EVs? — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/03/13/is-strife-in-the-strait-good-news-for-evs-00827182
-The U.S. could see renewed interest in electric vehicles if surging gasoline prices become the new normal for drivers.
 
