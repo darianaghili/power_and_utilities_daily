@@ -1,24 +1,24 @@
-Power, Utilities & Infrastructure — Daily Brief (2026-03-14)
+Power, Utilities & Infrastructure — Daily Brief (2026-03-15)
 
 This is an automated, AI-generated audio briefing. Sources and links are in the show notes.
 
-1. DOE offers $1.9B for transmission reconductoring, advanced tech — Utility Dive
-Link: https://www.utilitydive.com/news/doe-makes-19b-available-for-transmission-reconductoring-advanced-tech/814666/
-The SPARK funding opportunity renames the Biden-era Grid Resilience and Innovation Partnerships program.
+1. Trump’s Offshore Wind Nightmare Has Become Reality — CleanTechnica
+Link: https://cleantechnica.com/2026/03/14/trumps-offshore-wind-nightmare-has-become-reality/
+The US offshore wind industry is still alive and kicking with multiple gigawatts' worth of clean electricity heading for the nation's grid. The post Trump&#8217;s Offshore Wind Nightmare Has Become Reality appeared first on CleanTechnica .
 
-2. ‘Clear warning signs’ as PJM wholesale power costs jump 54% in one year — Utility Dive
-Link: https://www.utilitydive.com/news/pjm-capacity-energy-market-reliability-monitoring-analytics/814647/
-Also, PJM&rsquo;s last two base capacity auctions show a growing shortfall compared to its reserve margin targets, according to the grid operator&rsquo;s market monitor. Prices will continue rising&nbsp;until&nbsp;large data center loads are addressed, it said.
+2. Why Is The Tesla Semi Still In Pilot Program Stage? — CleanTechnica
+Link: https://cleantechnica.com/2026/03/14/why-is-the-tesla-semi-still-in-pilot-program-stage/
+Tesla revealed its Semi (semi truck) nearly a decade ago. Many of us hoped for and expected a quick move to market and rapid scaling up. However, the process has gone much more slowly than I think anyone anticipated. However, when I saw news that Mone Transport is now engaged ... [continued] The post Why Is The Tesla Semi Still In Pilot Program Stage? appeared first on CleanTechnica .
 
-3. Texas floats plan to ease data center approvals — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/03/13/texas-floats-plan-to-ease-data-center-approvals-00825661
-A proposal to change the requirements for connecting large electricity users to the grid will be open for public comment until mid-April.
+3. Lucid Investor Day Report: “We Are Building for the Future” — CleanTechnica
+Link: https://cleantechnica.com/2026/03/14/lucid-investor-day-report-we-are-building-for-the-future/
+During its March 12 investor day in New York, Lucid Group announced a sweeping financial and product strategy that signals a departure from its status as a niche luxury manufacturer. CleanTechnica attended the event&#8217;s webcast live. Marc Winterhoff, the Interim CEO at Lucid, opened the event indicating immediately how the ... [continued] The post Lucid Investor Day Report: &#8220;We Are Building for the Future&#8221; appeared first on CleanTechnica .
 
-4. IOUs work to interconnect 39 GW of data center, manufacturing load: EEI — Utility Dive
-Link: https://www.utilitydive.com/news/ious-edison-electric-interconnect-data-center-ferc/814688/
-Duke Energy, Northern Indiana Public Service and Xcel Energy are among the utilities with major data center projects in their service territories, the Edison Electric Institute told federal regulators.
+4. Vingroup Shielding Filipino Motorists from Historic Fuel Price Hikes with Campaign — CleanTechnica
+Link: https://cleantechnica.com/2026/03/14/vingroup-shielding-filipino-motorists-from-historic-fuel-price-hikes-with-campaign/
+Following what the Department of Energy (DOE) has described as the highest fuel price jump in the country’s history, with pump prices rising by as much as P24 (~$0.55) per liter this week due to global supply disruptions, Vingroup has launched its “Trade Gas for Electric” campaign. The initiative is ... [continued] The post Vingroup Shielding Filipino Motorists from Historic Fuel Price Hikes with Campaign appeared first on CleanTechnica .
 
-5. Energy Department touts $1.9B for grid upgrades — E&E Energywire (Politico)
-Link: https://subscriber.politicopro.com/article/eenews/2026/03/13/energy-department-touts-1-9b-for-grid-upgrades-ew-00826343
-Projects should demonstrate "measurable improvements" in grid capacity while also combining physical capacity gains, a notice said.
+5. Dominion Energy Falls Into The “Dispatchable” Trap Over Data Center Power — CleanTechnica
+Link: https://cleantechnica.com/2026/03/14/dominion-energy-falls-into-the-dispatchable-trap-over-data-center-power/
+The debate over who should pay to power data centers is taking center stage all across America, from Virginia to Montana. The post Dominion Energy Falls Into The &#8220;Dispatchable&#8221; Trap Over Data Center Power appeared first on CleanTechnica .
 
